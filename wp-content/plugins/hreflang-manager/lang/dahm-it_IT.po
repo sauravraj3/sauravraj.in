@@ -1,0 +1,2540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dahm\n"
+"POT-Creation-Date: 2019-08-04 09:21+0200\n"
+"PO-Revision-Date: 2019-08-04 09:22+0200\n"
+"Last-Translator: Danilo Andreini <andreini.danilo@gmail.com>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: blocks\n"
+
+#: admin/class-dahm-admin.php:828 admin/class-dahm-admin.php:880
+msgid "URL"
+msgstr "URL"
+
+#: admin/class-dahm-admin.php:834 admin/class-dahm-admin.php:887
+#: admin/view/connections.php:728 admin/view/connections.php:806
+msgid "Language"
+msgstr "Linguaggio"
+
+#: admin/class-dahm-admin.php:851 admin/class-dahm-admin.php:904
+#: admin/view/connections.php:745 admin/view/connections.php:823
+msgid "Locale"
+msgstr "Locale"
+
+#: admin/class-dahm-admin.php:854 admin/class-dahm-admin.php:907
+#: admin/class-dahm-admin.php:2022 admin/class-dahm-admin.php:2165
+#: admin/class-dahm-admin.php:2198 admin/class-dahm-admin.php:2230
+#: admin/class-dahm-admin.php:2263 admin/class-dahm-admin.php:2296
+#: admin/class-dahm-admin.php:2329 admin/class-dahm-admin.php:2362
+#: admin/class-dahm-admin.php:2395 admin/class-dahm-admin.php:2428
+#: admin/class-dahm-admin.php:2461 admin/class-dahm-admin.php:2494
+#: admin/class-dahm-admin.php:2527 admin/class-dahm-admin.php:2560
+#: admin/class-dahm-admin.php:2593 admin/class-dahm-admin.php:2626
+#: admin/class-dahm-admin.php:2659 admin/class-dahm-admin.php:2692
+#: admin/class-dahm-admin.php:2725 admin/class-dahm-admin.php:2758
+#: admin/class-dahm-admin.php:2791 admin/class-dahm-admin.php:2824
+#: admin/class-dahm-admin.php:2857 admin/class-dahm-admin.php:2890
+#: admin/class-dahm-admin.php:2923 admin/class-dahm-admin.php:2956
+#: admin/class-dahm-admin.php:2989 admin/class-dahm-admin.php:3022
+#: admin/class-dahm-admin.php:3055 admin/class-dahm-admin.php:3088
+#: admin/class-dahm-admin.php:3121 admin/class-dahm-admin.php:3154
+#: admin/class-dahm-admin.php:3187 admin/class-dahm-admin.php:3220
+#: admin/class-dahm-admin.php:3253 admin/class-dahm-admin.php:3286
+#: admin/class-dahm-admin.php:3319 admin/class-dahm-admin.php:3352
+#: admin/class-dahm-admin.php:3385 admin/class-dahm-admin.php:3418
+#: admin/class-dahm-admin.php:3451 admin/class-dahm-admin.php:3484
+#: admin/class-dahm-admin.php:3517 admin/class-dahm-admin.php:3550
+#: admin/class-dahm-admin.php:3583 admin/class-dahm-admin.php:3616
+#: admin/class-dahm-admin.php:3649 admin/class-dahm-admin.php:3682
+#: admin/class-dahm-admin.php:3715 admin/class-dahm-admin.php:3748
+#: admin/class-dahm-admin.php:3781 admin/class-dahm-admin.php:3814
+#: admin/class-dahm-admin.php:3847 admin/class-dahm-admin.php:3880
+#: admin/class-dahm-admin.php:3913 admin/class-dahm-admin.php:3946
+#: admin/class-dahm-admin.php:3979 admin/class-dahm-admin.php:4012
+#: admin/class-dahm-admin.php:4045 admin/class-dahm-admin.php:4078
+#: admin/class-dahm-admin.php:4111 admin/class-dahm-admin.php:4144
+#: admin/class-dahm-admin.php:4177 admin/class-dahm-admin.php:4210
+#: admin/class-dahm-admin.php:4243 admin/class-dahm-admin.php:4276
+#: admin/class-dahm-admin.php:4309 admin/class-dahm-admin.php:4342
+#: admin/class-dahm-admin.php:4375 admin/class-dahm-admin.php:4408
+#: admin/class-dahm-admin.php:4441 admin/class-dahm-admin.php:4474
+#: admin/class-dahm-admin.php:4507 admin/class-dahm-admin.php:4540
+#: admin/class-dahm-admin.php:4573 admin/class-dahm-admin.php:4606
+#: admin/class-dahm-admin.php:4639 admin/class-dahm-admin.php:4672
+#: admin/class-dahm-admin.php:4705 admin/class-dahm-admin.php:4738
+#: admin/class-dahm-admin.php:4771 admin/class-dahm-admin.php:4804
+#: admin/class-dahm-admin.php:4837 admin/class-dahm-admin.php:4870
+#: admin/class-dahm-admin.php:4903 admin/class-dahm-admin.php:4936
+#: admin/class-dahm-admin.php:4969 admin/class-dahm-admin.php:5002
+#: admin/class-dahm-admin.php:5035 admin/class-dahm-admin.php:5068
+#: admin/class-dahm-admin.php:5101 admin/class-dahm-admin.php:5134
+#: admin/class-dahm-admin.php:5167 admin/class-dahm-admin.php:5200
+#: admin/class-dahm-admin.php:5233 admin/class-dahm-admin.php:5266
+#: admin/class-dahm-admin.php:5299 admin/class-dahm-admin.php:5332
+#: admin/class-dahm-admin.php:5365 admin/class-dahm-admin.php:5398
+#: admin/class-dahm-admin.php:5431 admin/view/connections.php:748
+#: admin/view/connections.php:826
+msgid "Not Assigned"
+msgstr "Non Assegnato"
+
+#: admin/class-dahm-admin.php:1445
+msgid "HM - Connections"
+msgstr "HM - Connessioni"
+
+#: admin/class-dahm-admin.php:1446 admin/view/connections.php:627
+msgid "Connections"
+msgstr "Connessioni"
+
+#: admin/class-dahm-admin.php:1454
+msgid "HM - Import"
+msgstr "HM - Importa"
+
+#: admin/class-dahm-admin.php:1455
+msgid "Import"
+msgstr "Importa"
+
+#: admin/class-dahm-admin.php:1463
+msgid "HM - Export"
+msgstr "HM - Esporta"
+
+#: admin/class-dahm-admin.php:1464 admin/view/export.php:24
+msgid "Export"
+msgstr "Esporta"
+
+#: admin/class-dahm-admin.php:1472
+msgid "HM - Options"
+msgstr "HM - Opzioni"
+
+#: admin/class-dahm-admin.php:1473
+msgid "Options"
+msgstr "Opzioni"
+
+#: admin/class-dahm-admin.php:1525
+msgid "Detect URL Mode"
+msgstr "Modalità Riconoscimento URL"
+
+#: admin/class-dahm-admin.php:1539
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: admin/class-dahm-admin.php:1553
+msgid "Auto Trailing Slash"
+msgstr "Auto Slash Finale"
+
+#: admin/class-dahm-admin.php:1567
+msgid "Auto Delete"
+msgstr "Auto Cancellazione"
+
+#: admin/class-dahm-admin.php:1581
+msgid "Sanitize URL"
+msgstr "Sanitizza URL"
+
+#: admin/class-dahm-admin.php:1595
+msgid "Sample Future Permalink"
+msgstr "Campiona Permalink Futuro"
+
+#: admin/class-dahm-admin.php:1609
+msgid "Show Log"
+msgstr "Mostra Log"
+
+#: admin/class-dahm-admin.php:1623
+msgid "Import Mode"
+msgstr "Modalità Importazione"
+
+#: admin/class-dahm-admin.php:1637
+msgid "Import Language"
+msgstr "Importa Linguaggio"
+
+#: admin/class-dahm-admin.php:1651
+msgid "Import Locale"
+msgstr "Importa Locale"
+
+#: admin/class-dahm-admin.php:1665
+msgid "Connections in Menu"
+msgstr "Connessioni in Menu"
+
+#: admin/class-dahm-admin.php:1679
+msgid "Meta Box Post Types"
+msgstr "Meta Box Post Types"
+
+#: admin/class-dahm-admin.php:1693
+msgid "Meta Box Capability"
+msgstr "Capability Meta Box"
+
+#: admin/class-dahm-admin.php:1707
+msgid "Editor Sidebar Capability"
+msgstr "Capability Editor Sidebar"
+
+#: admin/class-dahm-admin.php:1721
+msgid "Connections Menu Capability"
+msgstr "Capability Menu Connessioni"
+
+#: admin/class-dahm-admin.php:1735
+msgid "Import Menu Capability"
+msgstr "Capability Menu Importa"
+
+#: admin/class-dahm-admin.php:1749
+msgid "Export Menu Capability"
+msgstr "Capability Menu Esporta"
+
+#: admin/class-dahm-admin.php:1775 admin/class-dahm-admin.php:2451
+#: admin/class-dahm-admin.php:2484 admin/class-dahm-admin.php:2517
+#: admin/class-dahm-admin.php:2550 admin/class-dahm-admin.php:2583
+#: admin/class-dahm-admin.php:2616 admin/class-dahm-admin.php:2649
+#: admin/class-dahm-admin.php:2682 admin/class-dahm-admin.php:2715
+#: admin/class-dahm-admin.php:2748 admin/class-dahm-admin.php:2781
+#: admin/class-dahm-admin.php:2814 admin/class-dahm-admin.php:2847
+#: admin/class-dahm-admin.php:2880 admin/class-dahm-admin.php:2913
+#: admin/class-dahm-admin.php:2946 admin/class-dahm-admin.php:2979
+#: admin/class-dahm-admin.php:3012 admin/class-dahm-admin.php:3045
+#: admin/class-dahm-admin.php:3078 admin/class-dahm-admin.php:3111
+#: admin/class-dahm-admin.php:3144 admin/class-dahm-admin.php:3177
+#: admin/class-dahm-admin.php:3210 admin/class-dahm-admin.php:3243
+#: admin/class-dahm-admin.php:3276 admin/class-dahm-admin.php:3309
+#: admin/class-dahm-admin.php:3342 admin/class-dahm-admin.php:3375
+#: admin/class-dahm-admin.php:3408 admin/class-dahm-admin.php:3441
+#: admin/class-dahm-admin.php:3474 admin/class-dahm-admin.php:3507
+#: admin/class-dahm-admin.php:3540 admin/class-dahm-admin.php:3573
+#: admin/class-dahm-admin.php:3606 admin/class-dahm-admin.php:3639
+#: admin/class-dahm-admin.php:3672 admin/class-dahm-admin.php:3705
+#: admin/class-dahm-admin.php:3738 admin/class-dahm-admin.php:3771
+#: admin/class-dahm-admin.php:3804 admin/class-dahm-admin.php:3837
+#: admin/class-dahm-admin.php:3870 admin/class-dahm-admin.php:3903
+#: admin/class-dahm-admin.php:3936 admin/class-dahm-admin.php:3969
+#: admin/class-dahm-admin.php:4002 admin/class-dahm-admin.php:4035
+#: admin/class-dahm-admin.php:4068 admin/class-dahm-admin.php:4101
+#: admin/class-dahm-admin.php:4134 admin/class-dahm-admin.php:4167
+#: admin/class-dahm-admin.php:4200 admin/class-dahm-admin.php:4233
+#: admin/class-dahm-admin.php:4266 admin/class-dahm-admin.php:4299
+#: admin/class-dahm-admin.php:4332 admin/class-dahm-admin.php:4365
+#: admin/class-dahm-admin.php:4398 admin/class-dahm-admin.php:4431
+#: admin/class-dahm-admin.php:4464 admin/class-dahm-admin.php:4497
+#: admin/class-dahm-admin.php:4530 admin/class-dahm-admin.php:4563
+#: admin/class-dahm-admin.php:4596 admin/class-dahm-admin.php:4629
+#: admin/class-dahm-admin.php:4662 admin/class-dahm-admin.php:4695
+#: admin/class-dahm-admin.php:4728 admin/class-dahm-admin.php:4761
+#: admin/class-dahm-admin.php:4794 admin/class-dahm-admin.php:4827
+#: admin/class-dahm-admin.php:4860 admin/class-dahm-admin.php:4893
+#: admin/class-dahm-admin.php:4926 admin/class-dahm-admin.php:4959
+#: admin/class-dahm-admin.php:4992 admin/class-dahm-admin.php:5025
+#: admin/class-dahm-admin.php:5058 admin/class-dahm-admin.php:5091
+#: admin/class-dahm-admin.php:5124 admin/class-dahm-admin.php:5157
+#: admin/class-dahm-admin.php:5190 admin/class-dahm-admin.php:5223
+#: admin/class-dahm-admin.php:5256 admin/class-dahm-admin.php:5289
+#: admin/class-dahm-admin.php:5322 admin/class-dahm-admin.php:5355
+#: admin/class-dahm-admin.php:5388 admin/class-dahm-admin.php:5421
+msgid "Default Language"
+msgstr "Linguaggio Predefinito"
+
+#: admin/class-dahm-admin.php:1789 admin/class-dahm-admin.php:2467
+#: admin/class-dahm-admin.php:2500 admin/class-dahm-admin.php:2533
+#: admin/class-dahm-admin.php:2566 admin/class-dahm-admin.php:2599
+#: admin/class-dahm-admin.php:2632 admin/class-dahm-admin.php:2665
+#: admin/class-dahm-admin.php:2698 admin/class-dahm-admin.php:2731
+#: admin/class-dahm-admin.php:2764 admin/class-dahm-admin.php:2797
+#: admin/class-dahm-admin.php:2830 admin/class-dahm-admin.php:2863
+#: admin/class-dahm-admin.php:2896 admin/class-dahm-admin.php:2929
+#: admin/class-dahm-admin.php:2962 admin/class-dahm-admin.php:2995
+#: admin/class-dahm-admin.php:3028 admin/class-dahm-admin.php:3061
+#: admin/class-dahm-admin.php:3094 admin/class-dahm-admin.php:3127
+#: admin/class-dahm-admin.php:3160 admin/class-dahm-admin.php:3193
+#: admin/class-dahm-admin.php:3226 admin/class-dahm-admin.php:3259
+#: admin/class-dahm-admin.php:3292 admin/class-dahm-admin.php:3325
+#: admin/class-dahm-admin.php:3358 admin/class-dahm-admin.php:3391
+#: admin/class-dahm-admin.php:3424 admin/class-dahm-admin.php:3457
+#: admin/class-dahm-admin.php:3490 admin/class-dahm-admin.php:3523
+#: admin/class-dahm-admin.php:3556 admin/class-dahm-admin.php:3589
+#: admin/class-dahm-admin.php:3622 admin/class-dahm-admin.php:3655
+#: admin/class-dahm-admin.php:3688 admin/class-dahm-admin.php:3721
+#: admin/class-dahm-admin.php:3754 admin/class-dahm-admin.php:3787
+#: admin/class-dahm-admin.php:3820 admin/class-dahm-admin.php:3853
+#: admin/class-dahm-admin.php:3886 admin/class-dahm-admin.php:3919
+#: admin/class-dahm-admin.php:3952 admin/class-dahm-admin.php:3985
+#: admin/class-dahm-admin.php:4018 admin/class-dahm-admin.php:4051
+#: admin/class-dahm-admin.php:4084 admin/class-dahm-admin.php:4117
+#: admin/class-dahm-admin.php:4150 admin/class-dahm-admin.php:4183
+#: admin/class-dahm-admin.php:4216 admin/class-dahm-admin.php:4249
+#: admin/class-dahm-admin.php:4282 admin/class-dahm-admin.php:4315
+#: admin/class-dahm-admin.php:4348 admin/class-dahm-admin.php:4381
+#: admin/class-dahm-admin.php:4414 admin/class-dahm-admin.php:4447
+#: admin/class-dahm-admin.php:4480 admin/class-dahm-admin.php:4513
+#: admin/class-dahm-admin.php:4546 admin/class-dahm-admin.php:4579
+#: admin/class-dahm-admin.php:4612 admin/class-dahm-admin.php:4645
+#: admin/class-dahm-admin.php:4678 admin/class-dahm-admin.php:4711
+#: admin/class-dahm-admin.php:4744 admin/class-dahm-admin.php:4777
+#: admin/class-dahm-admin.php:4810 admin/class-dahm-admin.php:4843
+#: admin/class-dahm-admin.php:4876 admin/class-dahm-admin.php:4909
+#: admin/class-dahm-admin.php:4942 admin/class-dahm-admin.php:4975
+#: admin/class-dahm-admin.php:5008 admin/class-dahm-admin.php:5041
+#: admin/class-dahm-admin.php:5074 admin/class-dahm-admin.php:5107
+#: admin/class-dahm-admin.php:5140 admin/class-dahm-admin.php:5173
+#: admin/class-dahm-admin.php:5206 admin/class-dahm-admin.php:5239
+#: admin/class-dahm-admin.php:5272 admin/class-dahm-admin.php:5305
+#: admin/class-dahm-admin.php:5338 admin/class-dahm-admin.php:5371
+#: admin/class-dahm-admin.php:5404 admin/class-dahm-admin.php:5437
+msgid "Default Locale"
+msgstr "Locale Predefinito"
+
+#: admin/class-dahm-admin.php:1808 admin/class-dahm-admin.php:1826
+#: admin/class-dahm-admin.php:1912 admin/class-dahm-admin.php:1930
+#: admin/class-dahm-admin.php:1948 admin/class-dahm-admin.php:1966
+msgid "No"
+msgstr "No"
+
+#: admin/class-dahm-admin.php:1809 admin/class-dahm-admin.php:1827
+#: admin/class-dahm-admin.php:1913 admin/class-dahm-admin.php:1931
+#: admin/class-dahm-admin.php:1949 admin/class-dahm-admin.php:1967
+msgid "Yes"
+msgstr "Si"
+
+#: admin/class-dahm-admin.php:1811
+msgid ""
+"Select \"Yes\" to display the log on the front-end. Please note that the log "
+"will be displayed only to the users who have access to the \"Connections\" "
+"menu."
+msgstr ""
+"Scegli \"Si\" per mostrare il log nel front-end. Per favore nota che il log "
+"verrà mostrato solamente agli utenti che hanno accesso al menu \"Connessioni"
+"\"."
+
+#: admin/class-dahm-admin.php:1829
+msgid ""
+"Select \"Yes\" if your website is using the HTTPS protocol. This option will "
+"be considered only if \"Detect URL Mode\" is set to \"Server Variable\"."
+msgstr ""
+"Scegli \"Si\" se il tuo sito utilizza il protocollo HTTPS. Questa opzione "
+"verrà considerata solamente se \"Modalità Riconoscimento URL\" è impostato "
+"su \"Server Variable\"."
+
+#: admin/class-dahm-admin.php:1844
+msgid ""
+"Please enter a number from 1 to 100. This option determines the number of "
+"connections displayed in the \"Defaults\" tab, in the \"Connections\" menu "
+"and in the \"Hreflang Manager\" meta box."
+msgstr ""
+"Per favore inserisci un numero tra 1 e 100. Questa opzione determina il "
+"numero di connessioni mostrare nella tab \"Defaults\", nel menu \"Connessioni"
+"\" e nel \"Hreflang Manager\" meta box."
+
+#: admin/class-dahm-admin.php:1852
+msgid ""
+"Please enter a number from 1 to 100 in the \"Connections in Menu\" option."
+msgstr ""
+"Per favore inserisci un numero tra 1 e 100 nella opzione \"Connessioni in "
+"Menu\"."
+
+#: admin/class-dahm-admin.php:1865
+msgid ""
+"A list of post types, separated by comma, where the \"Hreflang Manager\" "
+"meta box should be loaded."
+msgstr ""
+"Una lista di post types, separati da virgola, dove il meta box \"Hreflang "
+"Manager\" deve essere caricato."
+
+#: admin/class-dahm-admin.php:1874
+msgid ""
+"Please enter a valid list of post types separated by a comma in the \"Meta "
+"Box Post Types\" option."
+msgstr ""
+"Per favore inserisci una lista valida di post types separati da virgola "
+"nella opzione \"Meta Box Post Types\"."
+
+#: admin/class-dahm-admin.php:1888
+msgid "Server Variable"
+msgstr "Server Variable"
+
+#: admin/class-dahm-admin.php:1889
+msgid "WP Request"
+msgstr "WP Request"
+
+#: admin/class-dahm-admin.php:1891
+msgid "Select the method used to detect the URL of the page."
+msgstr "Scegli il metodo utilizzato per riconoscere l'URL della pagina."
+
+#: admin/class-dahm-admin.php:1915
+msgid ""
+"Enable this option to compare the URL defined in the \"URL to Connect\" "
+"field with the URL of the page with and without trailing slash."
+msgstr ""
+"Abilita questa opzione per comparare l'URL definito nel campo \"URL da "
+"Connettere\" con l'URL della pagina con e senza slash finale."
+
+#: admin/class-dahm-admin.php:1933
+msgid ""
+"Enable this option to automatically delete the connection associated with a "
+"post when the post is trashed."
+msgstr ""
+"Abilita questa opzione per cancellare automaticamente la connessione "
+"associata ad un post quando il post viene cestinato."
+
+#: admin/class-dahm-admin.php:1951
+msgid ""
+"Enable this option to sanitize the URL in the href attribute of the link "
+"element."
+msgstr ""
+"Abilita questa opzione per sanitizzare l'URL nell'attributo href "
+"dell'elemento link."
+
+#: admin/class-dahm-admin.php:1969
+msgid ""
+"Enable this option to assign a permalink based on the post name to the posts "
+"scheduled to be published in a future date."
+msgstr ""
+"Abilita questa opzione per assegnare un permalink basato sul nome del post "
+"ai post pianificati per essere pubblicati in una data futura."
+
+#: admin/class-dahm-admin.php:1984
+msgid "Exact Copy"
+msgstr "Copia Esatta"
+
+#: admin/class-dahm-admin.php:1985
+msgid "Based on Import Options"
+msgstr "Basato su Opzioni Importazione"
+
+#: admin/class-dahm-admin.php:1987
+msgid ""
+"Select \"Exact Copy\" to import an exact copy of the connections stored in "
+"your XML file or \"Based on Import Options\" to determine the \"URL to "
+"Connect\" value of the imported connections by using the \"Import Language\" "
+"and \"Import Locale\" options."
+msgstr ""
+"Scegli \"Copia Esatta\" per importare una copia esatta delle connessioni "
+"archiviate nel tuo file XML oppure \"Basato su Opzioni Importazione\" per "
+"determinare il valore di \"URL da Connettere\" delle connessioni importate "
+"utilizzando le opzioni \"Importa Linguaggio\" e \"Importa Locale\"."
+
+#: admin/class-dahm-admin.php:2012 admin/class-dahm-admin.php:2028
+msgid ""
+"This option is used to determine the \"URL to Connect\" value of the "
+"imported connections."
+msgstr ""
+"Questa opzione è utilizzata per determinare il valore \"URL da Connettere\" "
+"della connessione importata."
+
+#: admin/class-dahm-admin.php:2040
+msgid ""
+"The capability required to get access on the \"Hreflang Manager\" meta box."
+msgstr ""
+"La capability richiesta per avere accesso al meta box \"Hreflang Manager\"."
+
+#: admin/class-dahm-admin.php:2049
+msgid "Please enter a valid capability in the \"Meta Box Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability Meta "
+"Box\"."
+
+#: admin/class-dahm-admin.php:2062
+msgid "The capability required to get access on the editor sidebar."
+msgstr "La capability richiesta per avere accesso alla sidebar dell'editor."
+
+#: admin/class-dahm-admin.php:2071
+msgid ""
+"Please enter a valid capability in the \"Editor Sidebar Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability Editor "
+"Sidebar\"."
+
+#: admin/class-dahm-admin.php:2084
+msgid "The capability required to get access on the \"Connections\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Connessioni\"."
+
+#: admin/class-dahm-admin.php:2093
+msgid ""
+"Please enter a valid capability in the \"Connections Menu Capability\" "
+"option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability Menu "
+"Connessioni\"."
+
+#: admin/class-dahm-admin.php:2106
+msgid "The capability required to get access on the \"Import\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Importa\"."
+
+#: admin/class-dahm-admin.php:2115
+msgid ""
+"Please enter a valid capability in the \"Import Menu Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability Menu "
+"Importa\"."
+
+#: admin/class-dahm-admin.php:2128
+msgid "The capability required to get access on the \"Export\" menu."
+msgstr "La capability richiesta per avere accesso al menu \"Esporta\"."
+
+#: admin/class-dahm-admin.php:2137
+msgid ""
+"Please enter a valid capability in the \"Export Menu Capability\" option."
+msgstr ""
+"Per favore inserisci una capability valida nella opzione \"Capability Menu "
+"Esporta\"."
+
+#: admin/class-dahm-admin.php:2155 admin/class-dahm-admin.php:2188
+#: admin/class-dahm-admin.php:2220 admin/class-dahm-admin.php:2253
+#: admin/class-dahm-admin.php:2286 admin/class-dahm-admin.php:2319
+#: admin/class-dahm-admin.php:2352 admin/class-dahm-admin.php:2385
+#: admin/class-dahm-admin.php:2418
+msgid "This option determines the default value of language"
+msgstr "Questa opzione determina il valore di default di linguaggio"
+
+#: admin/class-dahm-admin.php:2171 admin/class-dahm-admin.php:2204
+#: admin/class-dahm-admin.php:2236 admin/class-dahm-admin.php:2269
+#: admin/class-dahm-admin.php:2302 admin/class-dahm-admin.php:2335
+#: admin/class-dahm-admin.php:2368 admin/class-dahm-admin.php:2401
+#: admin/class-dahm-admin.php:2434
+msgid "This option determines the default value of locale"
+msgstr "Questa opzione determina il valore di default di locale"
+
+#: admin/class-dahm-admin.php:5480 admin/view/connections.php:4
+#: admin/view/export.php:4 admin/view/import.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: admin/view/connections.php:23
+msgid "The \"URL to Connect\" field is empty."
+msgstr "Il campo \"URL da Connettere\" è vuoto."
+
+#: admin/view/connections.php:264
+msgid "The connection has been successfully updated."
+msgstr "La connessione è stata aggiornata con successo."
+
+#: admin/view/connections.php:272
+msgid "A connection with this \"URL to Connect\" already exists."
+msgstr "Una connessione con questo \"URL da Connettere\" esiste già."
+
+#: admin/view/connections.php:486
+msgid "The connection has been successfully added."
+msgstr "La connessione è stata creata con successo."
+
+#: admin/view/connections.php:505
+msgid "The connection has been successfully deleted."
+msgstr "La connessione è stata cancellata con successo."
+
+#: admin/view/connections.php:546 admin/view/connections.php:568
+msgid "Hreflang Manager - Connections"
+msgstr "Hreflang Manager - Connessioni"
+
+#: admin/view/connections.php:557
+msgid "Search..."
+msgstr "Cerca..."
+
+#: admin/view/connections.php:625
+msgid "ID"
+msgstr "ID"
+
+#: admin/view/connections.php:626 admin/view/connections.php:710
+#: admin/view/connections.php:788
+msgid "URL to Connect"
+msgstr "URL da Connettere"
+
+#: admin/view/connections.php:682
+msgid "items"
+msgstr "record"
+
+#: admin/view/connections.php:702
+msgid "Edit Connection"
+msgstr "Modifica Connessione"
+
+#: admin/view/connections.php:771
+msgid "Update Connection"
+msgstr "Aggiorna Connessione"
+
+#: admin/view/connections.php:782
+msgid "Create New Connection"
+msgstr "Crea Nuova Connessione"
+
+#: admin/view/connections.php:849
+msgid "Add Connection"
+msgstr "Aggiungi Connessione"
+
+#: admin/view/export.php:13
+msgid "Hreflang Manager - Export"
+msgstr "Hreflang Manager - Esporta"
+
+#: admin/view/export.php:17
+msgid ""
+"Click the Export button to generate an XML file that includes all your "
+"connections."
+msgstr ""
+"Clicca il pulsante Esporta per generare un file XML che include tutte le tue "
+"connessioni."
+
+#: admin/view/import.php:13
+msgid "Hreflang Manager - Import"
+msgstr "Hreflang Manager - Importa"
+
+#: admin/view/import.php:61
+msgid "connections have been added."
+msgstr "connessioni sono state aggiunte."
+
+#: admin/view/import.php:61
+msgid "Dismiss this notice."
+msgstr "Nascondi questo messaggio."
+
+#: admin/view/import.php:69
+msgid ""
+"Import the connections stored in your XML file by clicking the Upload file "
+"and import button."
+msgstr ""
+"Importa le connessioni archiviate nel tuo file XML cliccando il pulsante "
+"Carica file e importa."
+
+#: admin/view/import.php:72
+msgid "Choose a file from your computer:"
+msgstr "Scegli un file da tuo computer:"
+
+#: admin/view/import.php:76
+msgid "Upload file and import"
+msgstr "Carica file e importa"
+
+#: admin/view/import.php:78
+msgid ""
+"IMPORTANT: This menu should only be used to import the XML files generated "
+"with the \"Export\" menu."
+msgstr ""
+"IMPORTANTE: Questo menu deve essere utilizzato solamente per importare i "
+"file XML generati con il menu \"Esporta\"."
+
+#: admin/view/options.php:4
+msgid "You do not have sufficient capabilities to access this page."
+msgstr "Non hai i permessi sufficienti per accedere a questa pagina."
+
+#: admin/view/options.php:11
+msgid "Hreflang Manager - Options"
+msgstr "Hreflang Manager - Opzioni"
+
+#: admin/view/options.php:30
+msgid "General"
+msgstr "Generale"
+
+#: admin/view/options.php:31
+msgid "Defaults"
+msgstr "Predefiniti"
+
+#: admin/view/options.php:55
+msgid "Save Changes"
+msgstr "Salva Cambiamenti"
+
+#: public/class-dahm-public.php:78
+msgid "The following lines have been added in the HEAD section of this page"
+msgstr ""
+"Le seguenti righe sono state aggiunte nella sezione HEAD di questa pagina"
+
+#~ msgid "Please note that sometimes a trailing slash is required:"
+#~ msgstr "Per favore nota che a volte lo slash finale è richiesto:"
+
+#~ msgid "Select \"Yes\" to display the log on the front-end."
+#~ msgstr "Scegli \"Si\" per mostrare il log nel front-end."
+
+#~ msgid "Select \"Yes\" if you website is using the HTTPS protocol."
+#~ msgstr "Scegli \"Si\" se il tuo sito utilizza il protocollo HTTPS."
+
+#, fuzzy
+#~ msgid "Default Language 10."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 10."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 11."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 11."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 12."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 12."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 13."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 13."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 14."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 14."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 15."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 15."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 16."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 16."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 17."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 17."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 18."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 18."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 19."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 19."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 20."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 20."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 21."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 21."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 22."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 22."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 23."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 23."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 24."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 24."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 25."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 25."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 26."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 26."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 27."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 27."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 28."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 28."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 29."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 29."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 30."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 30."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 31."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 31."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 32."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 32."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 33."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 33."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 34."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 34."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 35."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 35."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 36."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 36."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 37."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 37."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 38."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 38."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 39."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 39."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 40."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 40."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 41."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 41."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 42."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 42."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 43."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 43."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 44."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 44."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 45."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 45."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 46."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 46."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 47."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 47."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 48."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 48."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 49."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 49."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 50."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 50."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 51."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 51."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 52."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 52."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 53."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 53."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 54."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 54."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 55."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 55."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 56."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 56."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 57."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 57."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 58."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 58."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 59."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 59."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 60."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 60."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 61."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 61."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 62."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 62."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 63."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 63."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 64."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 64."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 65."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 65."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 66."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 66."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 67."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 67."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 68."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 68."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 69."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 69."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 70."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 70."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 71."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 71."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 72."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 72."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 73."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 73."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 74."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 74."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 75."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 75."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 76."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 76."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 77."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 77."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 78."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 78."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 79."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 79."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 80."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 80."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 81."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 81."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 82."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 82."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 83."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 83."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 84."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 84."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 85."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 85."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 86."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 86."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 87."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 87."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 88."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 88."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 89."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 89."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 90."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 90."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 91."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 91."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 92."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 92."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 93."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 93."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 94."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 94."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 95."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 95."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 96."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 96."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 97."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 97."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 98."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 98."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 99."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 99."
+#~ msgstr "Locale Predefinito"
+
+#, fuzzy
+#~ msgid "Default Language 100."
+#~ msgstr "Linguaggio Predefinito"
+
+#, fuzzy
+#~ msgid "Default Locale 100."
+#~ msgstr "Locale Predefinito"
+
+#~ msgid "This option determines the default value of language 2."
+#~ msgstr "Questa opzione determina il valore di default del linguaggio 2."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 2."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid "This option determines the default value of language 3."
+#~ msgstr "Questa opzione determina il valore di default del linguaggio 3."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 3."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid "This option determines the default value of language 4."
+#~ msgstr "Questa opzione determina il valore di default del linguaggio 4."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 4."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid "This option determines the default value of language 5."
+#~ msgstr "Questa opzione determina il valore di default del linguaggio 5."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 5."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid "This option determines the default value of language 6."
+#~ msgstr "Questa opzione determina il valore di default del linguaggio 6."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 6."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of language 7."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Apri Nuova Tab"
+#~ "\" disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 7."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of language 8."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Apri Nuova Tab"
+#~ "\" disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 8."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of language 9."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Apri Nuova Tab"
+#~ "\" disponibile nel menu AIL."
+
+#, fuzzy
+#~ msgid "This option determines the default value of locale 9."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default del campo \"Use Nofollow\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid "Activate Post Types (Default)"
+#~ msgstr "Attiva Post Types (Default)"
+
+#~ msgid "Max AIL per Keyword (Default)"
+#~ msgstr "Max AIL per Keyword (Default)"
+
+#~ msgid "Case Insensitive Search (Default)"
+#~ msgstr "Ricerca Case Insensitive (Default)"
+
+#~ msgid "Open New Tab (Default)"
+#~ msgstr "Apri Nuova Tab (Default)"
+
+#~ msgid "Use Nofollow (Default)"
+#~ msgstr "Usa Nofollow (Default)"
+
+#~ msgid "Priority (Default)"
+#~ msgstr "Priorità (Default)"
+
+#~ msgid "Max AIL per Post"
+#~ msgstr "Max AIL per Post"
+
+#~ msgid "Protected Tags"
+#~ msgstr "Tag Protetti"
+
+#~ msgid "Enable AIL (Default)"
+#~ msgstr "Abilita AIL (Default)"
+
+#~ msgid "Test Mode"
+#~ msgstr "Modalità Test"
+
+#~ msgid "Source Post Types"
+#~ msgstr "Sorgente Post Types"
+
+#~ msgid "Results Pool Size"
+#~ msgstr "Dimensione Pool Risultati"
+
+#~ msgid "Titles"
+#~ msgstr "Titoli"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid "Tags"
+#~ msgstr "Tag"
+
+#~ msgid "Post Type"
+#~ msgstr "Post Type"
+
+#~ msgid "Characters per Interlink"
+#~ msgstr "Caratteri per Interlink"
+
+#~ msgid "Optimization Delta"
+#~ msgstr "Delta Ottimizzazione"
+
+#~ msgid "SEO Power (Default)"
+#~ msgstr "SEO Power (Default)"
+
+#~ msgid "Penality per Position (%)"
+#~ msgstr "Penalita per Posizione (%)"
+
+#~ msgid "Remove Link to Anchor"
+#~ msgstr "Rimuovi Link ad Ancora"
+
+#~ msgid "Remove URL Parameters"
+#~ msgstr "Rimuovi Parametri URL"
+
+#~ msgid "Track Internal Links"
+#~ msgstr "Traccia Link Interni"
+
+#~ msgid "Set Max Execution Time"
+#~ msgstr "Imposta Max Execution Time"
+
+#~ msgid "Max Execution Time Value"
+#~ msgstr "Valore Max Execution Time"
+
+#~ msgid "Set Memory Limit"
+#~ msgstr "Imposta Memory Limit"
+
+#~ msgid "Memory Limit Value"
+#~ msgstr "Valore Memory Limit"
+
+#~ msgid "Limit Posts Analysis"
+#~ msgstr "Limita Analisi dei Post"
+
+#~ msgid "Dashboard Post Types"
+#~ msgstr "Dashboard Post Types"
+
+#~ msgid "Juice Post Types"
+#~ msgstr "Juice Post Types"
+
+#~ msgid "Interlinks Options Post Types"
+#~ msgstr "Opzioni Interlinks Post Types"
+
+#~ msgid "Interlinks Optimization Post Types"
+#~ msgstr "Ottimizzazione Interlinks Post Types"
+
+#~ msgid "Interlinks Suggestions Post Types"
+#~ msgstr "Suggerimenti Interlinks Post Types"
+
+#~ msgid "Dashboard Menu"
+#~ msgstr "Dashboard Menu"
+
+#~ msgid "Juice Menu"
+#~ msgstr "Juice Menu"
+
+#~ msgid "Hits Menu"
+#~ msgstr "Hits Menu"
+
+#~ msgid "AIL Menu"
+#~ msgstr "AIL Menu"
+
+#~ msgid "Interlinks Options Meta Box"
+#~ msgstr "Opzioni Interlinks Meta Box"
+
+#~ msgid "Interlinks Optimization Meta Box"
+#~ msgstr "Ottimizzazione Interlinks Meta Box"
+
+#~ msgid "Interlinks Suggestions Meta Box"
+#~ msgstr "Suggerimenti Interlinks Meta Box"
+
+#~ msgid ""
+#~ "Enter a list of post types separated by a comma. This option determines "
+#~ "the default value of the \"Activate Post Types\" field available in the "
+#~ "AIL menu."
+#~ msgstr ""
+#~ "Inserisci una lista di post types separati da virgola. Questa opzione "
+#~ "determina il valore di default del campo \"Attiva Post Types\" "
+#~ "disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Default Activate Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da una "
+#~ "virgola nella opzione \"Default Activate Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This option determines the "
+#~ "default value of the \"Max Number AIL\" field available in the AIL menu."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Questa opzione determina "
+#~ "il valore di default del campo \"Massimo numero AIL\" disponibile nel "
+#~ "menu AIL."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max AIL per Keyword "
+#~ "(Default)\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Max AIL "
+#~ "per Keyword (Default)\"."
+
+#~ msgid ""
+#~ "This option determines the default value of the \"Case Insensitive Search"
+#~ "\" field available in the AIL menu."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default di \"Ricerca Case "
+#~ "Insensitive\" disponibile nel menu AIL."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000 in the \"Priority (Default)\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Priorità "
+#~ "(Default)\"."
+
+#~ msgid ""
+#~ "Please enter number from 1 to 1000000. This option determines the maximum "
+#~ "number of autolinks per post."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Questa opzione determina "
+#~ "il massimo numero di autolinks per post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max AIL per Post\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Max AIL "
+#~ "per Post\"."
+
+#~ msgid ""
+#~ "Enter a list of tags, separated by a comma, where the AIL should not be "
+#~ "applied."
+#~ msgstr ""
+#~ "Inserisci una lista di tag, separati da virgola, per indicare dove gli "
+#~ "AIL non devono essere applicati."
+
+#~ msgid ""
+#~ "Please enter a valid list of protected tags separated by a comma in the "
+#~ "\"Protected Tags\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di tag separati da virgola nella "
+#~ "opzione \"Tag Protetti\"."
+
+#~ msgid ""
+#~ "This option determines the default status of the \"Enable AIL\" option "
+#~ "available in the \"Interlinks Options\" meta box."
+#~ msgstr ""
+#~ "Questa opzione determina il valore di default dell'opzione \"Abilita AIL"
+#~ "\" disponibile nel meta box \"Opzioni Interlinks\"."
+
+#~ msgid ""
+#~ "With the test mode enabled the AIL will be applied to your posts, pages "
+#~ "or custom post types only if the user that is requesting the posts, pages "
+#~ "or custom post types has the capability defined with the \"AIL Menu\" "
+#~ "option."
+#~ msgstr ""
+#~ "Con la modalità test attivata gli AIL verranno applicati agli articoli, "
+#~ "pagine e custom post types solo se l'utente che sta visualizzando "
+#~ "l'articolo, la pagina o il custom post type possiede la capability "
+#~ "definita nella opzione \"AIL Menu\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the algorithm available "
+#~ "in the \"Interlinks Suggestions\" meta box should look for suggestions."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove l'algoritmo "
+#~ "disponibile nel meta box \"Suggerimenti Interlinks\" deve cercare i "
+#~ "suggerimenti."
+
+#~ msgid ""
+#~ "Please enter a number from 5 to 1000000. This option determines the "
+#~ "maximum number of results returned by the algorithm available in the "
+#~ "\"Interlinks Suggestions\" meta box. ( The five results shown for each "
+#~ "iteration are retrieved from a pool of results which has, as a maximum "
+#~ "size, the value defined with this option. )"
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 5 e 1000000. Questa opzione determina "
+#~ "il massimo numero di risultati ritornati dall'algoritmo disponibile nel "
+#~ "meta box \"Suggerimenti Interlinks\". ( I cinque risultati mostrati per "
+#~ "ogni iterazione sono recuperati da un pool di risultati che, come "
+#~ "dimensione massima, ha il valore definito con questa opzione. )"
+
+#~ msgid "Consider"
+#~ msgstr "Considera"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignora"
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the posts, pages and custom post types titles."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare i titoli degli articoli, delle pagine e dei custom "
+#~ "post types."
+
+#~ msgid "Require"
+#~ msgstr "Richiedi"
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post categories. If \"Required\" is selected the "
+#~ "algorithm will return only posts that have at least one category in "
+#~ "common with the edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare le categorie dei post. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo i post che hanno almeno una categoria in "
+#~ "comune con il post editato."
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post tags. If \"Required\" is selected the "
+#~ "algorithm will return only posts that have at least one tag in common "
+#~ "with the edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare i tag del post. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo i post che hanno almeno un tag in comune con "
+#~ "il post editato."
+
+#~ msgid ""
+#~ "Select if the algorithm available in the \"Interlinks Suggestions\" meta "
+#~ "box should consider the post type. If \"Required\" is selected the "
+#~ "algorithm will return only posts that belong to the same post type of the "
+#~ "edited post."
+#~ msgstr ""
+#~ "Scegli se l'algoritmo disponibile nel meta box \"Suggerimenti Interlinks"
+#~ "\" deve considerare il post type. Se \"Richiesto\" è selezionato "
+#~ "l'algoritmo ritornerà solo post che appartengono allo stesso post type "
+#~ "del post editato."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. The \"Recommended Interlinks\" "
+#~ "value available in the \"Dashboard\" menu and in the \"Interlinks "
+#~ "Optimization\" meta box is based on the defined \"Characters per Interlink"
+#~ "\" and on the content length of the post. For example if you define 500 "
+#~ "\"Characters per Interlink\", in the \"Dashboard\" menu, with a post that "
+#~ "has a content length of 2000 characters you will get 4 as the value for "
+#~ "the \"Recommended Interlinks\"."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000. Il valore di \"Interlinks "
+#~ "Raccomandati\" disponibile nel menu \"Dashboard\" e nel meta box "
+#~ "\"Ottimizzazione Interlinks\" è basato sul valore definito di \"Caratteri "
+#~ "per Interlink\" e sulla lunghezza del contenuto del post. Per esempio se "
+#~ "tu definisci 500 \"Caratteri per Interlink\", nel menu \"Dashboard\", con "
+#~ "un post che ha una lunghezza di 2000 caratteri avrai 4 come valore di "
+#~ "\"Interlinks Raccomandati\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Characters per Interlink"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Caratteri "
+#~ "per Interlink\"."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000. The \"Optimization Delta\" is "
+#~ "used to generate the \"Optimization Flag\" available in the \"Dashboard\" "
+#~ "menu and the text message diplayed in the \"Interlinks Optimization\" "
+#~ "meta box. This option determines how different can be the actual number "
+#~ "of interlinks in a post from the calculated \"Recommended Interlinks\". "
+#~ "This option defines a range, so for example in a post with 10 "
+#~ "\"Recommended Interlinks\" and this option value equal to 4, the post "
+#~ "will be considered optimized when it includes from 8 to 12 interlinks."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000. Il valore di \"Delta "
+#~ "Ottimizzazione\" è utilizzato per generare la \"Flag Ottimizzazione\" "
+#~ "disponibile nel menu \"Dashboard\" ed il messaggio di testo mostrato nel "
+#~ "meta box \"Ottimizzazione Interlinks\". Questa opzione determina quanto "
+#~ "differente può essere l'effettivo numero di interlinks in un post "
+#~ "rispetto al valore calcolato di \"Interlinks Raccomandati\". Questa "
+#~ "opzione definisce un intervallo, così per esempio in un post con 10 "
+#~ "\"Interlinks Raccomandati\" e questa opzione con valore uguale a 4, il "
+#~ "post verrà considerato ottimizzato quando include tra 8 e 12 interlinks."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000 in the \"Optimization Delta\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Delta "
+#~ "Ottimizzazione\"."
+
+#~ msgid ""
+#~ "Please enter a number from 100 to 1000000. The \"SEO Power\" is the base "
+#~ "value used to calculate the flow of \"Link Juice\" and this option "
+#~ "determines the default \"SEO Power\" value of a post. You can override "
+#~ "this value for specific posts in the \"Interlinks Options\" meta box."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 100 e 1000000. Il \"SEO Power\" è il "
+#~ "valore base utilizzato per calcolare il flusso di \"Link Juice\" e questa "
+#~ "opzione determina il valore di default di \"SEO Power\" di un post. Puoi "
+#~ "sovrascrivere il valore per uno specifico post con il meta box \"Opzioni "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a number from 100 to 1000000 in the \"SEO Power (Default)\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 100 to 1000000 nella opzione \"SEO "
+#~ "Power (Default)\"."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 100. With multiple links in an article, "
+#~ "the algorithm that calculates the \"Link Juice\" passed by each link "
+#~ "removes a percentage of the passed \"Link Juice\" based on the position "
+#~ "of a link compared to the other links."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 100. Con interlinks multipli in un "
+#~ "articolo, l'algoritmo che calcola il \"Link Juice\" passato da ogni link "
+#~ "rimuove una percentuale del \"Link Juice\" passato basandosi sulla "
+#~ "posizione del link comparata a quella degli altri link."
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 100 in the \"Penality per position\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 100 nella opzione \"Penalità per "
+#~ "posizione\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to automatically remove links to anchors from every URL "
+#~ "used to calculate the link juice. With this option enabled \"http://"
+#~ "example.com\" and \"http://example.com#myanchor\" will both contribute to "
+#~ "generate link juice only for a single URL, that is \"http://example.com\"."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per rimuovere automaticamente i link ad ancore da ogni URL "
+#~ "utilizzato per calcolare il link juice. Con questa opzione abilitata "
+#~ "\"http://example.com\" e \"http://example.com#myanchor\" contribuiranno "
+#~ "entrambi a generare link juice solo per il singolo link \"http://example."
+#~ "com\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to automatically remove the URL parameters from every URL "
+#~ "used to calculate the link juice. With this option enabled \"http://"
+#~ "example.com\" and \"http://example.com?param=1\" will both contribute to "
+#~ "generate link juice only for a single URL, that is \"http://example.com"
+#~ "\". Please note that this option should not be enabled if your website is "
+#~ "using URL parameters to actually identify specific pages. ( for example "
+#~ "with pretty permalinks not enabled )"
+#~ msgstr ""
+#~ "Scegli \"Yes\" per rimuovere automaticamente il parametri del URL da ogni "
+#~ "URL utilizzato per calcolare il link juice. Con questa opzione abilitata "
+#~ "\"http://example.com\" e \"http://example.com?param=1\" contribuiranno "
+#~ "entrambi a generare link juice per il solo link \"http://example.com\". "
+#~ "Per favore nota che questa opzione non deve essere abilitata se il tuo "
+#~ "sito utilizza i parametri del URL per identificare specifiche pagine. "
+#~ "( per esempio quando i pretty permalink non sono abilitati )"
+
+#~ msgid ""
+#~ "With this option enabled every click on the manual and auto internal "
+#~ "links will be tracked. The collected data will be available in the \"Hits"
+#~ "\" menu."
+#~ msgstr ""
+#~ "Con questa opzione abilitata ogni click sui link manuali ed automatici "
+#~ "verrà tracciato. I data collezionati saranno disponibili nel menu \"Hits"
+#~ "\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to enable your custom \"Max Execution Time Value\" on the "
+#~ "scripts used to analyze your posts."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per abilitare il \"Valore Max Execution Time\" sugli "
+#~ "script utilizzati per analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This value determines the "
+#~ "maximum number of seconds allowed to execute the scripts used to analyze "
+#~ "your posts."
+#~ msgstr ""
+#~ "Inserisci un numero tra 1 e 1000000. Questo valore determina il numero "
+#~ "massimo di secondi permessi per eseguire gli script utilizzati per "
+#~ "analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max Execution Time Value"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Valore Max "
+#~ "Execution Time\"."
+
+#~ msgid ""
+#~ "Select \"Yes\" to enable your custom \"Memory Limit Value\" on the "
+#~ "scripts used to analyze your posts."
+#~ msgstr ""
+#~ "Scegli \"Yes\" per abilitare il tuo valore personalizzato di \"Valore "
+#~ "Memory Limit\" sugli script utilizzati per analizzare i post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. This value determines the PHP "
+#~ "memory limit in megabytes allowed to execute the scripts used to analyze "
+#~ "your posts."
+#~ msgstr ""
+#~ "Per favore inserisci un numero da 1 a 1000000. Questo valore determina il "
+#~ "limite di memoria PHP ( in megabytes ) permesso per eseguire gli script "
+#~ "utilizzati per analizzare i post. "
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Memory Limit Value\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero da 1 a 1000000 nella opzione \"Valore "
+#~ "Memory Limit\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 100000. With this options you can "
+#~ "determine the maximum number of posts analyzed to get information about "
+#~ "your internal links, to get information about the internal links juice "
+#~ "and to get suggestions in the \"Interlinks Suggestions\" meta box. If you "
+#~ "select for example \"1000\", the analysis performed by the plugin will "
+#~ "use your latest \"1000\" posts."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 100000. Con questa opzione puoi "
+#~ "determinare il massimo numero di post analizzati per recuperare "
+#~ "informazioni sui tuoi link interni, per recuperare informazioni sul link "
+#~ "juice e per fornire suggerimenti nel meta box \"Interlinks Suggestions\". "
+#~ "Se scegli per esempio \"1000\", l'analisi effettuata dal plugin "
+#~ "utilizzerà i tuoi ultimi \"1000\" post."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 100000 in the \"Limit Posts Analysis\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 100000 nella opzione \"Limite "
+#~ "Analisi Post\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, used to determine the post "
+#~ "types analyzed in the Dashboard menu."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, utilizzata per determinare "
+#~ "i post types analizzati nel menu Dashboard."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Dashboard Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Dashboard Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, used to determine the post "
+#~ "types analyzed in the Juice menu."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, utilizzata per determinare "
+#~ "i post types analizzati nel menu Juice."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Juice Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Juice Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Options Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserici una lista valida di post types separati da virgola "
+#~ "nella opzione \"Opzioni Interlinks Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Interlinks "
+#~ "Optimization\" meta box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box "
+#~ "\"Ottimizzazione Interlinks\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Optimization Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Ottimizzazione Interlinks Post Types\"."
+
+#~ msgid ""
+#~ "A list of post types, separated by comma, where the \"Interlinks "
+#~ "Suggestions\" meta box should be loaded."
+#~ msgstr ""
+#~ "Una lista di post types, separati da virgola, dove il meta box "
+#~ "\"Suggerimenti Interlinks\" deve essere caricato."
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Interlinks Suggestions Post Types\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da virgola "
+#~ "nella opzione \"Suggerimenti Interlinks Post Types\"."
+
+#~ msgid "The capability required to get access on the \"Dashboard\" Menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"Dashboard\"."
+
+#~ msgid "Please enter a valid capability in the \"Dashboard Menu\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Dashboard Menu"
+#~ "\"."
+
+#~ msgid "The capability required to get access on the \"Juice\" Menu."
+#~ msgstr "La capability richiesta per avere accesso al menu \"Juice\"."
+
+#~ msgid "Please enter a valid capability in the \"Juice Menu\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Juice Menu\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Options Meta Box\" "
+#~ "option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Interlinks "
+#~ "Options Meta Box\"."
+
+#~ msgid ""
+#~ "The capability required to get access on the \"Interlinks Optimization\" "
+#~ "Meta Box."
+#~ msgstr ""
+#~ "La capability richiesta per avere accesso al meta box \"Ottimizzazione "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Optimization Meta Box"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore inserisci una capability valida nella opzione \"Interlinks "
+#~ "Optimization Meta Box\"."
+
+#~ msgid ""
+#~ "The capability required to get access on the \"Interlinks Suggestions\" "
+#~ "Meta Box."
+#~ msgstr ""
+#~ "La capability richiesta per avere accesso al meta box \"Suggerimenti "
+#~ "Interlinks\"."
+
+#~ msgid ""
+#~ "Please enter a valid capability in the \"Interlinks Suggestions Meta Box"
+#~ "\" option."
+#~ msgstr ""
+#~ "Per favore iserisci una capability valida nella opzione \"Interlinks "
+#~ "Suggestions Meta Box\"."
+
+#~ msgid "Interlinks Options"
+#~ msgstr "Opzioni Interlinks"
+
+#~ msgid "Interlinks Optimization"
+#~ msgstr "Ottimizzazione Interlinks"
+
+#~ msgid "Interlinks Suggestions"
+#~ msgstr "Suggerimenti Interlinks"
+
+#~ msgid "SEO Power:"
+#~ msgstr "SEO Power:"
+
+#~ msgid "The SEO Power of this post."
+#~ msgstr "Il SEO Power di questo post."
+
+#~ msgid "Enable AIL:"
+#~ msgstr "Abilita AIL:"
+
+#~ msgid "The number of interlinks included in this post is optimized."
+#~ msgstr "Il numero di interlinks inclusi in questo post è ottimizzato."
+
+#~ msgid "Please optimize the number of interlinks, this post currently has"
+#~ msgstr ""
+#~ "Per favore ottimizza il numero di interlinks, questo post al momento ha"
+
+#~ msgid "interlinks"
+#~ msgstr "interlinks"
+
+#~ msgid "manual interlinks and"
+#~ msgstr "interlinks manuali e"
+
+#~ msgid "auto interlinks"
+#~ msgstr "interlinks automatici"
+
+#~ msgid ""
+#~ "Based on the content length and on your options their number should be"
+#~ msgstr ""
+#~ "Basandosi sulla lunghezza del post e sulle opzioni correnti il loro "
+#~ "numero deve essere"
+
+#~ msgid ""
+#~ "Based on the content length and on your options their number should be "
+#~ "included between"
+#~ msgstr ""
+#~ "Basandosi sulla lunghezza del post e sulle opzioni correnti il loro "
+#~ "numero deve essere incluso tra"
+
+#~ msgid "and"
+#~ msgstr "e"
+
+#~ msgid ""
+#~ "Click the \"Generate\" button multiple times until you can find posts "
+#~ "suitable to be used as interlinks of this post."
+#~ msgstr ""
+#~ "Clicca il pulsante \"Genera\" più volte finché trovi dei post adatti ad "
+#~ "essere utilzzati come interlinks di questo post."
+
+#~ msgid "Post"
+#~ msgstr "Post"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "PT"
+#~ msgstr "PT"
+
+#~ msgid "CL"
+#~ msgstr "CL"
+
+#~ msgid "MIL"
+#~ msgstr "MIL"
+
+#~ msgid "AIL"
+#~ msgstr "AIL"
+
+#~ msgid "RI"
+#~ msgstr "RI"
+
+#~ msgid "VS"
+#~ msgstr "VS"
+
+#~ msgid "OF"
+#~ msgstr "OF"
+
+#~ msgid "IIL"
+#~ msgstr "IIL"
+
+#~ msgid "Juice (Value)"
+#~ msgstr "Juice (Valore)"
+
+#~ msgid "Link URL"
+#~ msgstr "Link URL"
+
+#~ msgid "Link Juice"
+#~ msgstr "Link Juice"
+
+#~ msgid "Link Content"
+#~ msgstr "Contenuto Link"
+
+#~ msgid "Target"
+#~ msgstr "Target"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Please enter a valid value in the \"Keyword\" field."
+#~ msgstr "Per favore inserisci un valore valido nel campo \"Keyword\"."
+
+#~ msgid ""
+#~ "Please enter a valid URL Path and/or File in the \"Target\" field. ( the "
+#~ "URL scheme and domain are implied )"
+#~ msgstr ""
+#~ "Per favore inserisci il percorso dell'URL e/o File. ( lo schema ed il "
+#~ "dominio dell'URL sono impliciti )"
+
+#~ msgid ""
+#~ "Please enter a valid list of post types separated by a comma in the "
+#~ "\"Activate Post Types\" field."
+#~ msgstr ""
+#~ "Per favore inserisci una lista valida di post types separati da una "
+#~ "virgola nella opzione \"Attiva Post Types\"."
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000 in the \"Max Number AIL\" field."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 nella opzione \"Massimo "
+#~ "Numero AIL\"."
+
+#~ msgid "Please enter a number from 0 to 1000000 in the \"Priority\" field."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000 nella opzione \"Priorità "
+#~ "\"."
+
+#~ msgid "Interlinks Manager - AIL"
+#~ msgstr "Interlinks Manager - AIL"
+
+#~ msgid "Keyword"
+#~ msgstr "Keyword"
+
+#~ msgid "The keyword that will be converted to a link."
+#~ msgstr "La keyword che verrà convertita in un link."
+
+#~ msgid "The target of the link automatically generated on the keyword."
+#~ msgstr "Il target del link generato automaticamente sulla keyword."
+
+#~ msgid "Edit AIL"
+#~ msgstr "Modifica AIL"
+
+#~ msgid "The Keyword"
+#~ msgstr "La Keyword"
+
+#~ msgid "Target ( URL Path and/or File )"
+#~ msgstr "Target ( Percorso URL e/o File )"
+
+#~ msgid "/hello-world/"
+#~ msgstr "/ciao-mondo/"
+
+#~ msgid ""
+#~ "The target of the link automatically generated on the keyword. Please "
+#~ "note that the URL scheme and domain are implied."
+#~ msgstr ""
+#~ "Il target del link automaticamente generato sulla keyword. Per favore "
+#~ "nota che lo schema ed il dominio dell'URL sono impliciti."
+
+#~ msgid "Left Boundary"
+#~ msgstr "Confine sinistro"
+
+#~ msgid "Generic"
+#~ msgstr "Generico"
+
+#~ msgid "White Space"
+#~ msgstr "Spazio Bianco"
+
+#~ msgid "Comma"
+#~ msgstr "Virgola"
+
+#~ msgid "Point"
+#~ msgstr "Punto"
+
+#~ msgid ""
+#~ "The \"Left Boundary\" option can be used to target keywords preceded by a "
+#~ "generic boundary or by a specific character."
+#~ msgstr ""
+#~ "Questa opzione può essere utilizzata per considerare delle keyword "
+#~ "precedute da un confine generico o da uno specifico carattere."
+
+#~ msgid "Right Boundary"
+#~ msgstr "Confine Destro"
+
+#~ msgid ""
+#~ "The \"Right Boundary\" option can be used to target keywords followed by "
+#~ "a generic boundary or by a specific character."
+#~ msgstr ""
+#~ "Questa opzione può essere utilizzata per considerare delle keyword "
+#~ "seguite da un confine generico o da uno specifico carattere."
+
+#~ msgid "Activate Post Types"
+#~ msgstr "Attiva Post Types"
+
+#~ msgid "The Activate Post Types"
+#~ msgstr "The Activate Post Types"
+
+#~ msgid ""
+#~ "Enter a list of post types separated by a comma. With this option you are "
+#~ "able to determine in which post types the defined keyword will be "
+#~ "automatically converted to a link."
+#~ msgstr ""
+#~ "Inserisci una lista di post types separati da virgola. Questa opzione "
+#~ "determina in quali post types la keyword definita verrà automaticamente "
+#~ "convertita in un link."
+
+#~ msgid "Max Number AIL"
+#~ msgstr "Massimo Numero AIL"
+
+#~ msgid "The Max Number of Autolinks"
+#~ msgstr "Il numero massimo di link automatici"
+
+#~ msgid ""
+#~ "Please enter a number from 1 to 1000000. With this option you can "
+#~ "determine the maximum number of matches of this keyword automatically "
+#~ "converted to a link."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 1 e 1000000 .Questa opzione determina "
+#~ "il numero massimo di volte in cui una la keyword viene convertita in un "
+#~ "link."
+
+#~ msgid "Case Insensitive Search"
+#~ msgstr "Ricerca Case Insensitive"
+
+#~ msgid ""
+#~ "If you select \"Yes\" your keyword will match both lowercase and "
+#~ "uppercase variations."
+#~ msgstr ""
+#~ "Se scegli \"Si\" la keyword verrà applicata sia per le variazioni "
+#~ "minuscule che per le variazioni maiuscole."
+
+#~ msgid "Open New Tab"
+#~ msgstr "Apri Nuova Tab"
+
+#~ msgid ""
+#~ "If you select \"Yes\" the link generated on the defined keyword opens its "
+#~ "URL on a new browser tab."
+#~ msgstr ""
+#~ "Se scegli \"Yes\" il link generato sulla keyword definita si aprirà in "
+#~ "una nuova tab del browser."
+
+#~ msgid "Use Nofollow"
+#~ msgstr "Usa Nofollow"
+
+#~ msgid ""
+#~ "If you select \"Yes\" the link generated on the defined keyword will "
+#~ "include the rel=\"nofollow\" attribute."
+#~ msgstr ""
+#~ "Se scegli \"Si\" il link generato sulla keyword definita includerà rel="
+#~ "\"nofollow\". "
+
+#~ msgid "Priority"
+#~ msgstr "Priorità"
+
+#~ msgid "The Priority"
+#~ msgstr "La priorità"
+
+#~ msgid ""
+#~ "Please enter a number from 0 to 1000000. The priority value determines "
+#~ "the order of the substitutions of the keywords. If there are multiple "
+#~ "keywords in a post and the \"Max AIL per Post\" option does not allow to "
+#~ "generate autolinks for all the keywords, you can increase the priority of "
+#~ "a specific keyword to make sure that in this particular situation that "
+#~ "keyword has a priority over the others and gets actually converted to a "
+#~ "link."
+#~ msgstr ""
+#~ "Per favore inserisci un numero tra 0 e 1000000. Il valore della priorità "
+#~ "determina in quale ordine vengono sostituite le keyword. Se ci sono "
+#~ "multiple keyword in un post e \"Max AIL per Post\" non permette di "
+#~ "generare link automatici per tutte le keyword, puoi incrementare la "
+#~ "priorità di una specifica keyword per assicurarti che in questa "
+#~ "particolare situazione la keyword abbia priorità sulle altre e venga "
+#~ "effettivamente convertita in un link. "
+
+#~ msgid "The Priority of this Keyword"
+#~ msgstr "La priorità di questa keyword"
+
+#~ msgid "Add Autolink"
+#~ msgstr "Aggiungi Autolink"
+
+#~ msgid "The post, page or custom post type title."
+#~ msgstr "Il titolo dell'articolo, pagina o custom post type."
+
+#~ msgid "The post, page or custom post type publishing date."
+#~ msgstr "La data di pubblicazione dell'articolo, pagina o custom post type."
+
+#~ msgid "The post type."
+#~ msgstr "Il post type."
+
+#~ msgid "The length of the raw ( with filters not applied ) post content."
+#~ msgstr ""
+#~ "La lunghezza grezza ( con filtri non applicati ) del contenuto del post."
+
+#~ msgid "The manual internal links of the post."
+#~ msgstr "I link interni manuali del post."
+
+#~ msgid "The auto internal links of the post."
+#~ msgstr "I link interni automatici del post."
+
+#~ msgid ""
+#~ "The recommended number of interlinks. This value is based on the post "
+#~ "length and on the \"Characters per Interlink\" option that you defined on "
+#~ "the plugin options."
+#~ msgstr ""
+#~ "Il numero raccomandato di interlinks. Questo valore è basato sulla "
+#~ "lunghezza del post e sulla opzione \"Caratteri per Interlink\" definita "
+#~ "nelle opzioni del plugin."
+
+#~ msgid "VG"
+#~ msgstr "VG"
+
+#~ msgid "The number of visits generated with the internal links of this post."
+#~ msgstr "Il numero di visite generate con i link interni di questo post."
+
+#~ msgid ""
+#~ "The \"Optimization Flag\" is based on the post length, on the "
+#~ "\"Characters per Interlink\" option and on the \"Optimization Delta\" "
+#~ "option that you defined on the plugin options."
+#~ msgstr ""
+#~ "La \"Flag Ottimizzazione\" è basata sulla lunghezza del post, sulla "
+#~ "opzione \"Caratteri per Interlink\" e sulla opzione \"Delta Ottimizzazione"
+#~ "\" definite nelle opzioni del plugin."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Generate Data\" button to "
+#~ "generate data and statistics about the internal links of your blog."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Genera Dati\" per "
+#~ "generare dati e statistiche relativi ai link interni del tuo blog."
+
+#~ msgid ""
+#~ "This procedure allows you to generate data and statistics about the "
+#~ "internal links of your blog."
+#~ msgstr ""
+#~ "Questa procedura ti permette di generare dati e statistiche relative ai "
+#~ "link interni del blog."
+
+#~ msgid "Generate Data"
+#~ msgstr "Genera Dati"
+
+#~ msgid ""
+#~ "The downloaded CSV file can be imported in your favorite spreadsheet "
+#~ "software."
+#~ msgstr ""
+#~ "Il file CSV scaricabile può essere importato nel tuo software spreadsheet "
+#~ "preferito."
+
+#~ msgid "Download"
+#~ msgstr "Scarica"
+
+#~ msgid "Filter & Sort"
+#~ msgstr "Filtra e Ordina"
+
+#~ msgid "All"
+#~ msgstr "Tutti"
+
+#~ msgid "Not Optimized"
+#~ msgstr "Non Ottimizzati"
+
+#~ msgid "Optimized"
+#~ msgstr "Ottimizzati"
+
+#~ msgid "Sort By"
+#~ msgstr "Ordina Per"
+
+#~ msgid "Title"
+#~ msgstr "Titolo"
+
+#~ msgid "Content Length"
+#~ msgstr "Lunghezza Contenuto"
+
+#~ msgid "Manual Interlinks"
+#~ msgstr "Interlinks Manuali"
+
+#~ msgid "Auto Interlinks"
+#~ msgstr "Interlinks Automatici"
+
+#~ msgid "Order"
+#~ msgstr "Ordine"
+
+#~ msgid "Descending"
+#~ msgstr "Discendente"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascendente"
+
+#~ msgid "Apply Query"
+#~ msgstr "Applica Query"
+
+#~ msgid "Data succesfully deleted."
+#~ msgstr "Dati cancellatti con successo."
+
+#~ msgid ""
+#~ "The post, page or custom post type that includes the link that received a "
+#~ "click."
+#~ msgstr "Il post che include il link che ha ricevuto il click."
+
+#~ msgid "The date on which the link has been clicked."
+#~ msgstr "La data nella quale il link è stato cliccato."
+
+#~ msgid "The target of the clicked link."
+#~ msgstr "Il target del link cliccato."
+
+#~ msgid ""
+#~ "The type of the clicked link, \"MIL\" for the manual internal links and "
+#~ "\"AIL\" for the auto internal links."
+#~ msgstr ""
+#~ "Il tipo di link cliccato, \"MIL\" per i link interni manuali e \"AIL\" "
+#~ "per i link interni automatici."
+
+#~ msgid "There are no hits at the moment."
+#~ msgstr "Non ci sono hits al momento."
+
+#~ msgid "Reset Hits"
+#~ msgstr "Cancella Hits"
+
+#~ msgid "This procedure allows you to reset the hits."
+#~ msgstr "Questa procedura ti permette di cancellare gli hits."
+
+#~ msgid "Reset"
+#~ msgstr "Cancella"
+
+#~ msgid "Interlinks Manager - Juice"
+#~ msgstr "Interlinks Manager - Juice"
+
+#~ msgid "The URL that receives the link juice."
+#~ msgstr "L'URL che riceve il link juice."
+
+#~ msgid "The number of internal inbound links received by the URL."
+#~ msgstr "Il numero di link interni inbound ricevuti dall'URL."
+
+#~ msgid "The link juice received by the URL."
+#~ msgstr "Il link juice ricevuto dall'URL."
+
+#~ msgid "Juice (Visual)"
+#~ msgstr "Juice (Visuale)"
+
+#~ msgid "The visual representation of the link juice received by the URL."
+#~ msgstr "La rappresentazione visuale del link juice ricevuto dall'URL."
+
+#~ msgid ""
+#~ "Download a CSV file that includes a list of the links that contribute to "
+#~ "generate the overall link juice of this URL."
+#~ msgstr ""
+#~ "Scarica un file CSV che include una lista dei link che hanno contribuito "
+#~ "a generare il link juice complessivo di questo URL."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Generate Data\" button to "
+#~ "generate data about the flow of \"Link Juice\" on the URLs of your "
+#~ "website."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Genera Dati\" per "
+#~ "generare dati relativi al flusso di \"Link Juice\" verso gli URL del tuo "
+#~ "sito."
+
+#~ msgid "Juice Data"
+#~ msgstr "Juice Data"
+
+#~ msgid ""
+#~ "This procedure allows you to generate data about the flow of \"Link Juice"
+#~ "\" on the URLs of your website."
+#~ msgstr ""
+#~ "Questa procedura ti permette di generare i dati relativi al flusso di "
+#~ "\"Link Juice\" verso gli URL del tuo sito."
+
+#~ msgid "Suggestions"
+#~ msgstr "Suggerimenti"
+
+#~ msgid "Juice"
+#~ msgstr "Juice"
+
+#~ msgid "Tracking"
+#~ msgstr "Tracking"
+
+#~ msgid "Analysis"
+#~ msgstr "Analisi"
+
+#~ msgid "Capabilities"
+#~ msgstr "Capability"
+
+#~ msgid ""
+#~ "There are no interlinks suggestions at the moment, please use this "
+#~ "functionality when you have at least five posts ( other than the current "
+#~ "one ) that match the criteria you defined in the \"Suggestions\" options."
+#~ msgstr ""
+#~ "Non ci sono interlinks suggeriti al momento, per favore utilizza questa "
+#~ "funzionalità quando ci sono almeno cinque post ( oltre a quello "
+#~ "corrente ) che soddisfano i criteri che hai definito nella sezione "
+#~ "\"Suggerimenti\"."
+
+#~ msgid ""
+#~ "There are no data at moment, click on the \"Update\" button to generate a "
+#~ "database with all the internal links of you website."
+#~ msgstr ""
+#~ "Non ci sono dati al momento. Clicca sul pulsante \"Aggiorna\" per "
+#~ "generare un database con tutti i link interni del tuo sito."

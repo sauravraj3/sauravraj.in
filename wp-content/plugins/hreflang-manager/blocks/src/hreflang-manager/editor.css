@@ -1,0 +1,87 @@
+/* Sidebar START ---------------------------------------------------------------------------------------------------- */
+
+.dahm-set-connection{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    height: 47px !important;
+    font-size: 16px;
+    padding: 13px 15px !important;
+}
+
+.dahm-set-connection:hover{
+    background: #f8f9f9 !important;
+}
+
+.dahm-set-connection-container{
+    width: 100%;
+}
+
+.dahm-set-connection-text{
+    float: left;
+    height: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #191e23;
+    line-height: 21px;
+}
+
+.dahm-set-connection-text:hover{
+    color: #191e23;
+}
+
+.dahm-set-connection-icon{
+    float: right;
+    height: 21px !important;
+    line-height: 21px !important;
+    color: #191e23;
+}
+
+.dahm-set-connection-icon:hover{
+    color: #191e23;
+}
+
+/* Sidebar END ------------------------------------------------------------------------------------------------------ */
+
+/* Modal START ------------------------------------------------------------------------------------------------------ */
+
+.dahm-modal{
+    width: 690px;
+}
+
+.dahm-single-connection .components-base-control{
+    margin-bottom: 20px;
+}
+
+.dahm-single-connection:last-of-type .components-base-control:last-of-type{
+    margin-bottom: 4px;
+}
+
+.dahm-single-connection .components-base-control__label{
+    color: #555d66;
+    /*margin-top: 16px;*/
+}
+
+.dahm-single-connection:last-of-type .components-base-control .components-base-control__field{
+    margin-bottom: 0;
+}
+
+.dahm-synthetic-label{
+    margin-bottom: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+    color: #555d66;
+}
+
+/* Input Field */
+.dahm-single-connection .components-base-control .components-text-control__input{
+    line-height: 16px;
+}
+
+.dahm-single-connection .components-base-control .components-select-control__input{
+    line-height: 30px;
+    height: 30px;
+}
+
+/* Modal END -------------------------------------------------------------------------------------------------------- */

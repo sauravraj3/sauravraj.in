@@ -1,0 +1,231 @@
+# Translation of Plugins - WP Mail SMTP by WPForms - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - WP Mail SMTP by WPForms - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-29 18:52:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - WP Mail SMTP by WPForms - Stable (latest release)\n"
+
+#: src/Admin/Pages/MiscTab.php:115
+msgid "Check this if you would like to hide plugin announcements and update details."
+msgstr "Check this if you would like to hide plugin announcements and update details."
+
+#: src/Admin/Pages/MiscTab.php:106
+msgid "Hide Announcements"
+msgstr "Hide Announcements"
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Author URI of the plugin
+msgid "https://wpforms.com/"
+msgstr "https://wpforms.com/"
+
+#. translators: %1$s - WP Mail SMTP plugin name; %2$s - opening a link tag;
+#. %3$s - closing a link tag.
+#: wp-mail-smtp-0.11.2.php:727
+msgid "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. %2$sRead more%3$s for additional information."
+msgstr "Your site is running an outdated version of PHP that is no longer supported and may cause issues with %1$s. %2$sRead more%3$s for additional information."
+
+#: wp-mail-smtp-0.11.2.php:536
+msgid "To"
+msgstr "To"
+
+#. translators: %s - Pepipost registration URL.
+#: wp-mail-smtp-0.11.2.php:456
+msgid "You need to signup on %s to get the SMTP username/password."
+msgstr "You need to signup on %s to get the SMTP username/password."
+
+#: wp-mail-smtp-0.11.2.php:450
+msgid "Pepipost SMTP Options"
+msgstr "Pepipost SMTP Options"
+
+#: wp-mail-smtp-0.11.2.php:436
+msgid "This is in plain text because it must not be stored encrypted."
+msgstr "This is in plain text because it must not be stored encrypted."
+
+#: wp-mail-smtp-0.11.2.php:392
+msgid "TLS is not the same as STARTTLS. For most servers SSL is the recommended option."
+msgstr "TLS is not the same as STARTTLS. For most servers SSL is the recommended option."
+
+#: wp-mail-smtp-0.11.2.php:389 wp-mail-smtp-0.11.2.php:511
+msgid "Use TLS encryption."
+msgstr "Use TLS encryption."
+
+#: src/Admin/Pages/SettingsTab.php:192 wp-mail-smtp-0.11.2.php:335
+msgid "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+msgstr "Return Path indicates where non-delivery receipts - or bounce messages - are to be sent."
+
+#. translators: %1$s - link start; %2$s - link end.
+#: wp-mail-smtp-0.11.2.php:306
+msgid "Looking for high inbox delivery? Try Pepipost with easy setup and free emails. Learn more %1$shere%2$s."
+msgstr "Looking for high inbox delivery? Try Pepipost with easy setup and free emails. Learn more %1$shere%2$s."
+
+#: wp-mail-smtp-0.11.2.php:300
+msgid "Use Pepipost SMTP to send emails."
+msgstr "Use Pepipost SMTP to send emails."
+
+#: wp-mail-smtp-0.11.2.php:237 wp-mail-smtp-0.11.2.php:582
+msgid "WP Mail SMTP Settings"
+msgstr "WP Mail SMTP Settings"
+
+#: wp-mail-smtp-0.11.2.php:343 wp-mail-smtp-0.11.2.php:443
+#: wp-mail-smtp-0.11.2.php:519
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: src/Admin/Area.php:208 src/Admin/Area.php:209 src/Admin/Area.php:795
+#: wp-mail-smtp-0.11.2.php:688
+msgid "Settings"
+msgstr "Settings"
+
+#: src/Providers/OptionsAbstract.php:276 wp-mail-smtp-0.11.2.php:397
+#: wp-mail-smtp-0.11.2.php:401
+msgid "Authentication"
+msgstr "Authentication"
+
+#: src/Admin/Pages/SettingsTab.php:92 wp-mail-smtp-0.11.2.php:246
+msgid "From Email"
+msgstr "From Email"
+
+#: src/Admin/Pages/SettingsTab.php:138 wp-mail-smtp-0.11.2.php:265
+msgid "From Name"
+msgstr "From Name"
+
+#: wp-mail-smtp-0.11.2.php:422 wp-mail-smtp-0.11.2.php:465
+msgid "Username"
+msgstr "Username"
+
+#: wp-mail-smtp-0.11.2.php:430 wp-mail-smtp-0.11.2.php:473
+msgid "Password"
+msgstr "Password"
+
+#: src/Providers/OptionsAbstract.php:240 wp-mail-smtp-0.11.2.php:363
+#: wp-mail-smtp-0.11.2.php:481
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: wp-mail-smtp-0.11.2.php:540
+msgid "Type an email address here and then click Send Test to generate a test email."
+msgstr "Type an email address here and then click Send Test to generate a test email."
+
+#: src/Admin/Pages/TestTab.php:59 wp-mail-smtp-0.11.2.php:528
+msgid "Send a Test Email"
+msgstr "Send a Test Email"
+
+#: wp-mail-smtp-0.11.2.php:411
+msgid "Yes: Use SMTP authentication."
+msgstr "Yes: Use SMTP authentication."
+
+#: wp-mail-smtp-0.11.2.php:415
+msgid "If this is set to no, the values below are ignored."
+msgstr "If this is set to 'no', the values below are ignored."
+
+#: wp-mail-smtp-0.11.2.php:406
+msgid "No: Do not use SMTP authentication."
+msgstr "No: Do not use SMTP authentication."
+
+#: wp-mail-smtp-0.11.2.php:384 wp-mail-smtp-0.11.2.php:506
+msgid "Use SSL encryption."
+msgstr "Use SSL encryption."
+
+#: wp-mail-smtp-0.11.2.php:379 wp-mail-smtp-0.11.2.php:501
+msgid "No encryption."
+msgstr "No encryption."
+
+#: src/Providers/OptionsAbstract.php:200 wp-mail-smtp-0.11.2.php:370
+#: wp-mail-smtp-0.11.2.php:374 wp-mail-smtp-0.11.2.php:489
+#: wp-mail-smtp-0.11.2.php:495
+msgid "Encryption"
+msgstr "Encryption"
+
+#: src/Providers/OptionsAbstract.php:186 wp-mail-smtp-0.11.2.php:355
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: wp-mail-smtp-0.11.2.php:350
+msgid "These options only apply if you have chosen to send mail by SMTP above."
+msgstr "These options only apply if you have chosen to send mail by SMTP above."
+
+#: wp-mail-smtp-0.11.2.php:348
+msgid "SMTP Options"
+msgstr "SMTP Options"
+
+#: src/Admin/Pages/SettingsTab.php:188 wp-mail-smtp-0.11.2.php:331
+msgid "Set the return-path to match the From Email"
+msgstr "Set the return-path to match the From Email"
+
+#: src/Admin/Pages/SettingsTab.php:179 wp-mail-smtp-0.11.2.php:321
+#: wp-mail-smtp-0.11.2.php:326
+msgid "Return Path"
+msgstr "Return Path"
+
+#: wp-mail-smtp-0.11.2.php:294
+msgid "Use the PHP mail() function to send emails."
+msgstr "Use the PHP mail() function to send emails."
+
+#: wp-mail-smtp-0.11.2.php:290
+msgid "Send all WordPress emails via SMTP."
+msgstr "Send all WordPress emails via SMTP."
+
+#: src/Admin/Pages/SettingsTab.php:201 wp-mail-smtp-0.11.2.php:280
+#: wp-mail-smtp-0.11.2.php:285
+msgid "Mailer"
+msgstr "Mailer"
+
+#: wp-mail-smtp-0.11.2.php:271
+msgid "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+msgstr "You can specify the name that emails should be sent from. If you leave this blank, the emails will be sent from WordPress."
+
+#: wp-mail-smtp-0.11.2.php:256
+msgid "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+msgstr "<strong>Please Note:</strong> You appear to be using a version of WordPress prior to 2.3. Please ignore the From Name field and instead enter Name&lt;email@domain.com&gt; in this field."
+
+#: wp-mail-smtp-0.11.2.php:253
+msgid "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+msgstr "You can specify the email address that emails should be sent from. If you leave this blank, the default email will be used."
+
+#: wp-mail-smtp-0.11.2.php:225
+msgid "The SMTP debugging output is shown below:"
+msgstr "The SMTP debugging output is shown below:"
+
+#: wp-mail-smtp-0.11.2.php:222
+msgid "The full debugging output is shown below:"
+msgstr "The full debugging output is shown below:"
+
+#: wp-mail-smtp-0.11.2.php:219
+msgid "The result was:"
+msgstr "The result was:"
+
+#: wp-mail-smtp-0.11.2.php:218
+msgid "Test Message Sent"
+msgstr "Test Message Sent"
+
+#: wp-mail-smtp-0.11.2.php:202
+msgid "This is a test email generated by the WP Mail SMTP WordPress plugin."
+msgstr "This is a test email generated by the WP Mail SMTP WordPress plugin."
+
+#: wp-mail-smtp-0.11.2.php:192 wp-mail-smtp-0.11.2.php:546
+msgid "Send Test"
+msgstr "Send Test"
+
+#. Plugin Name of the plugin
+#: src/Admin/Area.php:197 src/Admin/Area.php:198 src/SiteHealth.php:40
+#: wp-mail-smtp-0.11.2.php:582
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#. translators: %s - email address where test mail will be sent to.
+#: wp-mail-smtp-0.11.2.php:201
+msgid "Test mail to %s"
+msgstr "Test mail to %s"
+
+#: src/Providers/Gmail/Options.php:32
+msgid "Gmail"
+msgstr "Gmail"

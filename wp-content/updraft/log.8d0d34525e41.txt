@@ -1,0 +1,967 @@
+0000.004 (0) Opened log file at time: Mon, 14 Sep 2020 09:18:20 +0000 on https://sauravraj.in/
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.28 WP: 5.5.1 PHP: 7.4.10 (litespeed, Linux r042.bom2.mysecurecloudhost.com 3.10.0-962.3.2.lve1.5.38.el7.x86_64 #1 SMP Thu Jun 18 05:28:41 EDT 2020 x86_64) MySQL: 10.2.33-MariaDB WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 9.6M | 12M) multisite: Y (sub-folder) openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.089 (0) Free space on disk containing Updraft's temporary directory: 127816.2 MB
+0000.096 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.097 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.105 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1599989039, seconds_ago=86061)
+0000.109 (0) Set semaphore last lock (fd) time to 2020-09-14 09:18:20
+0000.113 (0) Semaphore lock (fd) complete
+0000.124 (0) Backup run: resumption=0, nonce=8d0d34525e41, file_nonce=8d0d34525e41 begun at=1600075100 (0s ago), job type=backup
+0000.125 (0) Scheduling a resumption (1) after 300 seconds (1600075400) in case this run gets aborted
+0000.165 (0) Checking if we have a zip executable available
+0000.166 (0) Testing: /usr/bin/zip
+0000.210 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.212 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.213 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.214 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.218 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.235 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.237 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.279 (0) Working binary zip found: /usr/bin/zip
+0000.281 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.282 (0) Creation of backups of directories: beginning
+0000.298 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0003.148 (0) Total entities for the zip file: 1499 directories, 7913 files (0 skipped as non-modified), 112 MB
+0003.152 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0003.250 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: size is now: 0.30 MB
+0003.260 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 100 files added (on-disk size: 340.9 KB)
+0003.274 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 200 files added (on-disk size: 340.9 KB)
+0003.280 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 300 files added (on-disk size: 340.9 KB)
+0003.286 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 400 files added (on-disk size: 340.9 KB)
+0003.291 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 500 files added (on-disk size: 340.9 KB)
+0003.293 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.3 MB, 7913 files batched, 501 (502) added so far); re-opening (prior size: 340.9 KB)
+0004.932 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: size is now: 2.60 MB
+0004.939 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 600 files added (on-disk size: 2699.9 KB)
+0004.945 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 700 files added (on-disk size: 2699.9 KB)
+0004.950 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 800 files added (on-disk size: 2699.9 KB)
+0004.957 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 900 files added (on-disk size: 2699.9 KB)
+0004.962 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1000 files added (on-disk size: 2699.9 KB)
+0004.964 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 7913 files batched, 501 (1003) added so far); re-opening (prior size: 2699.9 KB)
+0006.797 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: size is now: 4.10 MB
+0006.805 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1100 files added (on-disk size: 4239.9 KB)
+0006.811 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1200 files added (on-disk size: 4239.9 KB)
+0006.817 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1300 files added (on-disk size: 4239.9 KB)
+0006.824 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1400 files added (on-disk size: 4239.9 KB)
+0006.831 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1500 files added (on-disk size: 4239.9 KB)
+0006.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.2 MB, 7913 files batched, 501 (1504) added so far); re-opening (prior size: 4239.9 KB)
+0012.417 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: size is now: 17.60 MB
+0012.449 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1600 files added (on-disk size: 18020.3 KB)
+0012.469 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1700 files added (on-disk size: 18020.3 KB)
+0012.490 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1800 files added (on-disk size: 18020.3 KB)
+0012.511 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 1900 files added (on-disk size: 18020.3 KB)
+0012.522 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2000 files added (on-disk size: 18020.3 KB)
+0012.524 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 7913 files batched, 501 (2005) added so far); re-opening (prior size: 18020.3 KB)
+0018.489 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: size is now: 29.90 MB
+0018.508 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2100 files added (on-disk size: 30666.6 KB)
+0018.513 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2200 files added (on-disk size: 30666.6 KB)
+0018.518 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2300 files added (on-disk size: 30666.6 KB)
+0018.523 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2400 files added (on-disk size: 30666.6 KB)
+0018.527 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2500 files added (on-disk size: 30666.6 KB)
+0018.529 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 7913 files batched, 501 (2506) added so far); re-opening (prior size: 30666.6 KB)
+0020.414 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2600 files added (on-disk size: 30870.9 KB)
+0020.418 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2700 files added (on-disk size: 30870.9 KB)
+0020.424 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2800 files added (on-disk size: 30870.9 KB)
+0020.429 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 2900 files added (on-disk size: 30870.9 KB)
+0020.437 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3000 files added (on-disk size: 30870.9 KB)
+0020.439 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.1 MB, 7913 files batched, 501 (3007) added so far); re-opening (prior size: 30870.9 KB)
+0021.493 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3100 files added (on-disk size: 31084.2 KB)
+0021.503 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3200 files added (on-disk size: 31084.2 KB)
+0021.513 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3300 files added (on-disk size: 31084.2 KB)
+0021.521 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3400 files added (on-disk size: 31084.2 KB)
+0021.536 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3500 files added (on-disk size: 31084.2 KB)
+0021.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 7913 files batched, 501 (3508) added so far); re-opening (prior size: 31084.2 KB)
+0023.206 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3600 files added (on-disk size: 32070.5 KB)
+0023.218 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3700 files added (on-disk size: 32070.5 KB)
+0023.261 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3800 files added (on-disk size: 32070.5 KB)
+0023.290 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 3900 files added (on-disk size: 32070.5 KB)
+0023.303 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4000 files added (on-disk size: 32070.5 KB)
+0023.304 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.5 MB, 7913 files batched, 501 (4009) added so far); re-opening (prior size: 32070.5 KB)
+0025.741 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4100 files added (on-disk size: 34265.5 KB)
+0025.751 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4200 files added (on-disk size: 34265.5 KB)
+0025.759 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4300 files added (on-disk size: 34265.5 KB)
+0025.764 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4400 files added (on-disk size: 34265.5 KB)
+0025.770 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4500 files added (on-disk size: 34265.5 KB)
+0025.772 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.5 MB, 7913 files batched, 501 (4510) added so far); re-opening (prior size: 34265.5 KB)
+0028.231 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4600 files added (on-disk size: 38406.9 KB)
+0028.235 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4700 files added (on-disk size: 38406.9 KB)
+0028.239 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4800 files added (on-disk size: 38406.9 KB)
+0028.245 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 4900 files added (on-disk size: 38406.9 KB)
+0028.251 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5000 files added (on-disk size: 38406.9 KB)
+0028.252 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 7913 files batched, 501 (5011) added so far); re-opening (prior size: 38406.9 KB)
+0030.540 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5100 files added (on-disk size: 39531.8 KB)
+0030.546 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5200 files added (on-disk size: 39531.8 KB)
+0030.551 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5300 files added (on-disk size: 39531.8 KB)
+0030.556 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5400 files added (on-disk size: 39531.8 KB)
+0030.561 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5500 files added (on-disk size: 39531.8 KB)
+0030.562 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.1 MB, 7913 files batched, 501 (5512) added so far); re-opening (prior size: 39531.8 KB)
+0032.799 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5600 files added (on-disk size: 42014.8 KB)
+0032.806 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5700 files added (on-disk size: 42014.8 KB)
+0032.822 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5800 files added (on-disk size: 42014.8 KB)
+0032.828 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 5900 files added (on-disk size: 42014.8 KB)
+0032.835 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6000 files added (on-disk size: 42014.8 KB)
+0032.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 7913 files batched, 501 (6013) added so far); re-opening (prior size: 42014.8 KB)
+0034.398 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6100 files added (on-disk size: 43083.6 KB)
+0034.404 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6200 files added (on-disk size: 43083.6 KB)
+0034.409 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6300 files added (on-disk size: 43083.6 KB)
+0034.414 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6400 files added (on-disk size: 43083.6 KB)
+0034.427 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6500 files added (on-disk size: 43083.6 KB)
+0034.430 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 7913 files batched, 501 (6514) added so far); re-opening (prior size: 43083.6 KB)
+0035.901 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6600 files added (on-disk size: 44705.7 KB)
+0035.905 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6700 files added (on-disk size: 44705.7 KB)
+0035.909 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6800 files added (on-disk size: 44705.7 KB)
+0035.912 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 6900 files added (on-disk size: 44705.7 KB)
+0035.917 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7000 files added (on-disk size: 44705.7 KB)
+0035.919 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.8 MB, 7913 files batched, 501 (7015) added so far); re-opening (prior size: 44705.7 KB)
+0040.043 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7100 files added (on-disk size: 50317.2 KB)
+0040.048 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7200 files added (on-disk size: 50317.2 KB)
+0040.053 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7300 files added (on-disk size: 50317.2 KB)
+0040.058 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7400 files added (on-disk size: 50317.2 KB)
+0040.064 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7500 files added (on-disk size: 50317.2 KB)
+0040.066 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 7913 files batched, 501 (7516) added so far); re-opening (prior size: 50317.2 KB)
+0041.941 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7600 files added (on-disk size: 51046.8 KB)
+0041.945 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7700 files added (on-disk size: 51046.8 KB)
+0041.949 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7800 files added (on-disk size: 51046.8 KB)
+0041.954 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip.tmp: 7900 files added (on-disk size: 51046.8 KB)
+0044.286 (0) Created plugins zip (0) - 52034.3 KB in 43.9 s (1186.1 KB/s) (sha1: b41ee67554ad522086d516093edbd21fb7dbe8ba, sha256: 05f7ab765985eb04a137eb2002fd39be22a9a31f208c8dad7bb3a626e0169dd2)
+0044.290 (0) Beginning creation of dump of themes (split every: 400 MB)
+0044.460 (0) Total entities for the zip file: 141 directories, 789 files (0 skipped as non-modified), 36.2 MB
+0044.465 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0044.470 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0044.474 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0044.477 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0044.481 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0044.482 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (22.9 MB, 789 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0046.278 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: size is now: 7.00 MB
+0046.284 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 600 files added (on-disk size: 7131 KB)
+0046.288 (0) Zip: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: 700 files added (on-disk size: 7131 KB)
+0046.965 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip.tmp: size is now: 12.80 MB
+0047.107 (0) Created themes zip (0) - 13072.1 KB in 2.8 s (4732.1 KB/s) (sha1: 2b82b52e355ac0c149442b9e98365dc1155f6759, sha256: f96f6ea3df5829e939e3394075aac2d28b8fe2c955abd4b272ed6d55e5285de5)
+0047.109 (0) No backup of uploads: excluded by user's options
+0047.110 (0) No backup of others: excluded by user's options
+0047.112 (0) Saving backup status to database (elements: 4)
+0047.114 (0) Beginning creation of database dump (WordPress DB)
+0047.115 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0047.122 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0047.155 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpmd_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1247 bytes total)
+0047.157 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0047.172 (0) Table wpmd_options: Total expected rows (approximate): 679
+0047.208 (0) Table wpmd_options: Rows added in this batch (start page: 0; next: finished): 676 in 0.04 seconds
+0047.210 (0) Table wpmd_options: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_options.table.gz - 36.2 KB)
+0047.226 (0) Table wpmd_site: Total expected rows (approximate): 1
+0047.231 (0) Table wpmd_site: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0047.232 (0) Table wpmd_site: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_site.table.gz - 0.4 KB)
+0047.235 (0) Table wpmd_blogs: Total expected rows (approximate): 3
+0047.238 (0) Table wpmd_blogs: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0047.239 (0) Table wpmd_blogs: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_blogs.table.gz - 0.6 KB)
+0047.242 (0) Table wpmd_users: Total expected rows (approximate): 3
+0047.245 (0) Table wpmd_users: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0047.246 (0) Table wpmd_users: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_users.table.gz - 0.7 KB)
+0047.248 (0) Table wpmd_usermeta: Total expected rows (approximate): 125
+0047.253 (0) Table wpmd_usermeta: Rows added in this batch (start page: 0; next: finished): 125 in 0.00 seconds
+0047.254 (0) Table wpmd_usermeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_usermeta.table.gz - 5.3 KB)
+0047.257 (0) Table wpmd_actionscheduler_actions: Total expected rows (approximate): 11
+0047.261 (0) Table wpmd_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 11 in 0.00 seconds
+0047.262 (0) Table wpmd_actionscheduler_actions: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_actions.table.gz - 1 KB)
+0047.265 (0) Table wpmd_actionscheduler_claims: Total expected rows (approximate): 0
+0047.267 (0) Table wpmd_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.268 (0) Table wpmd_actionscheduler_claims: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_claims.table.gz - 0.4 KB)
+0047.278 (0) Table wpmd_actionscheduler_groups: Total expected rows (approximate): 2
+0047.282 (0) Table wpmd_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0047.284 (0) Table wpmd_actionscheduler_groups: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_groups.table.gz - 0.4 KB)
+0047.296 (0) Table wpmd_actionscheduler_logs: Total expected rows (approximate): 33
+0047.301 (0) Table wpmd_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 33 in 0.00 seconds
+0047.302 (0) Table wpmd_actionscheduler_logs: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_logs.table.gz - 0.8 KB)
+0047.314 (0) Table wpmd_blogmeta: Total expected rows (approximate): 2
+0047.318 (0) Table wpmd_blogmeta: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0047.319 (0) Table wpmd_blogmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_blogmeta.table.gz - 0.4 KB)
+0047.322 (0) Table wpmd_commentmeta: Total expected rows (approximate): 0
+0047.325 (0) Table wpmd_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.326 (0) Table wpmd_commentmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_commentmeta.table.gz - 0.4 KB)
+0047.330 (0) Table wpmd_comments: Total expected rows (approximate): 10
+0047.333 (0) Table wpmd_comments: Rows added in this batch (start page: 0; next: finished): 10 in 0.00 seconds
+0047.334 (0) Table wpmd_comments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_comments.table.gz - 2 KB)
+0047.346 (0) Table wpmd_links: Total expected rows (approximate): 0
+0047.349 (0) Table wpmd_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.350 (0) Table wpmd_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_links.table.gz - 0.4 KB)
+0047.354 (0) Table wpmd_postmeta: Total expected rows (approximate): 3645
+0047.425 (0) Table wpmd_postmeta: Rows added in this batch (start page: 0; next: finished): 3645 in 0.07 seconds
+0047.428 (0) Table wpmd_postmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_postmeta.table.gz - 53 KB)
+0047.432 (0) Table wpmd_posts: Total expected rows (approximate): 454
+0047.630 (0) Table wpmd_posts: Rows added in this batch (start page: 0; next: finished): 454 in 0.20 seconds
+0047.631 (0) Table wpmd_posts: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_posts.table.gz - 442.7 KB)
+0047.643 (0) Table wpmd_registration_log: Total expected rows (approximate): 5
+0047.647 (0) Table wpmd_registration_log: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0047.650 (0) Table wpmd_registration_log: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_registration_log.table.gz - 0.5 KB)
+0047.660 (0) Table wpmd_signups: Total expected rows (approximate): 2
+0047.664 (0) Table wpmd_signups: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0047.665 (0) Table wpmd_signups: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_signups.table.gz - 0.7 KB)
+0047.668 (0) Table wpmd_sitemeta: Total expected rows (approximate): 100
+0047.673 (0) Table wpmd_sitemeta: Rows added in this batch (start page: 0; next: finished): 99 in 0.00 seconds
+0047.675 (0) Table wpmd_sitemeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_sitemeta.table.gz - 7 KB)
+0047.678 (0) Table wpmd_term_relationships: Total expected rows (approximate): 216
+0047.681 (0) Table wpmd_term_relationships: Rows added in this batch (start page: 0; next: finished): 216 in 0.00 seconds
+0047.682 (0) Table wpmd_term_relationships: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_term_relationships.table.gz - 1 KB)
+0047.685 (0) Table wpmd_term_taxonomy: Total expected rows (approximate): 219
+0047.691 (0) Table wpmd_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 219 in 0.00 seconds
+0047.692 (0) Table wpmd_term_taxonomy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_term_taxonomy.table.gz - 1.8 KB)
+0047.695 (0) Table wpmd_termmeta: Total expected rows (approximate): 0
+0047.698 (0) Table wpmd_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.699 (0) Table wpmd_termmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_termmeta.table.gz - 0.4 KB)
+0047.702 (0) Table wpmd_terms: Total expected rows (approximate): 219
+0047.708 (0) Table wpmd_terms: Rows added in this batch (start page: 0; next: finished): 219 in 0.01 seconds
+0047.710 (0) Table wpmd_terms: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_terms.table.gz - 3.3 KB)
+0047.711 (0) Skipping table (lacks our prefix (wpmd_)): mo_sp_attributes
+0047.712 (0) Skipping table (lacks our prefix (wpmd_)): mo_sp_data
+0047.721 (0) Table wpmd_2_grules: Total expected rows (approximate): 0
+0047.723 (0) Table wpmd_2_grules: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.724 (0) Table wpmd_2_grules: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_grules.table.gz - 0.3 KB)
+0047.735 (0) Table wpmd_2_yoast_seo_links: Total expected rows (approximate): 104
+0047.740 (0) Table wpmd_2_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 104 in 0.00 seconds
+0047.741 (0) Table wpmd_2_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_yoast_seo_links.table.gz - 1.2 KB)
+0047.751 (0) Table wpmd_2_yoast_seo_meta: Total expected rows (approximate): 15
+0047.754 (0) Table wpmd_2_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 15 in 0.00 seconds
+0047.755 (0) Table wpmd_2_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_yoast_seo_meta.table.gz - 0.4 KB)
+0047.766 (0) Table wpmd_3_yoast_seo_links: Total expected rows (approximate): 0
+0047.769 (0) Table wpmd_3_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.770 (0) Table wpmd_3_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_3_yoast_seo_links.table.gz - 0.4 KB)
+0047.782 (0) Table wpmd_3_yoast_seo_meta: Total expected rows (approximate): 0
+0047.784 (0) Table wpmd_3_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.785 (0) Table wpmd_3_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_3_yoast_seo_meta.table.gz - 0.3 KB)
+0047.795 (0) Table wpmd_4_yoast_seo_links: Total expected rows (approximate): 0
+0047.797 (0) Table wpmd_4_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.798 (0) Table wpmd_4_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_4_yoast_seo_links.table.gz - 0.4 KB)
+0047.826 (0) Table wpmd_4_yoast_seo_meta: Total expected rows (approximate): 0
+0047.829 (0) Table wpmd_4_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.830 (0) Table wpmd_4_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_4_yoast_seo_meta.table.gz - 0.3 KB)
+0047.863 (0) Table wpmd_5_actionscheduler_actions: Total expected rows (approximate): 0
+0047.867 (0) Table wpmd_5_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.869 (0) Table wpmd_5_actionscheduler_actions: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_actions.table.gz - 0.5 KB)
+0047.888 (0) Table wpmd_5_actionscheduler_claims: Total expected rows (approximate): 0
+0047.891 (0) Table wpmd_5_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.892 (0) Table wpmd_5_actionscheduler_claims: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_claims.table.gz - 0.3 KB)
+0047.904 (0) Table wpmd_5_actionscheduler_groups: Total expected rows (approximate): 0
+0047.906 (0) Table wpmd_5_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.907 (0) Table wpmd_5_actionscheduler_groups: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_groups.table.gz - 0.3 KB)
+0047.919 (0) Table wpmd_5_actionscheduler_logs: Total expected rows (approximate): 0
+0047.922 (0) Table wpmd_5_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.923 (0) Table wpmd_5_actionscheduler_logs: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_logs.table.gz - 0.4 KB)
+0047.927 (0) Table wpmd_5_amelia_appointments: Total expected rows (approximate): 0
+0047.932 (0) Table wpmd_5_amelia_appointments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.933 (0) Table wpmd_5_amelia_appointments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_appointments.table.gz - 0.5 KB)
+0047.937 (0) Table wpmd_5_amelia_categories: Total expected rows (approximate): 0
+0047.941 (0) Table wpmd_5_amelia_categories: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.943 (0) Table wpmd_5_amelia_categories: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_categories.table.gz - 0.3 KB)
+0047.947 (0) Table wpmd_5_amelia_coupons: Total expected rows (approximate): 0
+0047.952 (0) Table wpmd_5_amelia_coupons: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.953 (0) Table wpmd_5_amelia_coupons: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons.table.gz - 0.4 KB)
+0047.956 (0) Table wpmd_5_amelia_coupons_to_events: Total expected rows (approximate): 0
+0047.961 (0) Table wpmd_5_amelia_coupons_to_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.962 (0) Table wpmd_5_amelia_coupons_to_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons_to_events.table.gz - 0.4 KB)
+0047.966 (0) Table wpmd_5_amelia_coupons_to_services: Total expected rows (approximate): 0
+0047.971 (0) Table wpmd_5_amelia_coupons_to_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.972 (0) Table wpmd_5_amelia_coupons_to_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons_to_services.table.gz - 0.4 KB)
+0047.977 (0) Table wpmd_5_amelia_custom_fields: Total expected rows (approximate): 0
+0047.983 (0) Table wpmd_5_amelia_custom_fields: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.984 (0) Table wpmd_5_amelia_custom_fields: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields.table.gz - 0.4 KB)
+0047.988 (0) Table wpmd_5_amelia_custom_fields_events: Total expected rows (approximate): 0
+0047.994 (0) Table wpmd_5_amelia_custom_fields_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0047.995 (0) Table wpmd_5_amelia_custom_fields_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_events.table.gz - 0.4 KB)
+0047.999 (0) Table wpmd_5_amelia_custom_fields_options: Total expected rows (approximate): 0
+0048.005 (0) Table wpmd_5_amelia_custom_fields_options: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.007 (0) Table wpmd_5_amelia_custom_fields_options: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_options.table.gz - 0.4 KB)
+0048.013 (0) Table wpmd_5_amelia_custom_fields_services: Total expected rows (approximate): 0
+0048.018 (0) Table wpmd_5_amelia_custom_fields_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.020 (0) Table wpmd_5_amelia_custom_fields_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_services.table.gz - 0.4 KB)
+0048.025 (0) Table wpmd_5_amelia_customer_bookings: Total expected rows (approximate): 0
+0048.030 (0) Table wpmd_5_amelia_customer_bookings: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.031 (0) Table wpmd_5_amelia_customer_bookings: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings.table.gz - 0.5 KB)
+0048.035 (0) Table wpmd_5_amelia_customer_bookings_to_events_periods: Total expected rows (approximate): 0
+0048.040 (0) Table wpmd_5_amelia_customer_bookings_to_events_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.041 (0) Table wpmd_5_amelia_customer_bookings_to_events_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings_to_events_periods.table.gz - 0.4 KB)
+0048.045 (0) Table wpmd_5_amelia_customer_bookings_to_extras: Total expected rows (approximate): 0
+0048.049 (0) Table wpmd_5_amelia_customer_bookings_to_extras: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.051 (0) Table wpmd_5_amelia_customer_bookings_to_extras: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings_to_extras.table.gz - 0.4 KB)
+0048.056 (0) Table wpmd_5_amelia_events: Total expected rows (approximate): 0
+0048.060 (0) Table wpmd_5_amelia_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.061 (0) Table wpmd_5_amelia_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events.table.gz - 0.6 KB)
+0048.065 (0) Table wpmd_5_amelia_events_periods: Total expected rows (approximate): 0
+0048.070 (0) Table wpmd_5_amelia_events_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.071 (0) Table wpmd_5_amelia_events_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_periods.table.gz - 0.4 KB)
+0048.075 (0) Table wpmd_5_amelia_events_tags: Total expected rows (approximate): 0
+0048.080 (0) Table wpmd_5_amelia_events_tags: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.081 (0) Table wpmd_5_amelia_events_tags: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_tags.table.gz - 0.4 KB)
+0048.085 (0) Table wpmd_5_amelia_events_to_providers: Total expected rows (approximate): 0
+0048.089 (0) Table wpmd_5_amelia_events_to_providers: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.091 (0) Table wpmd_5_amelia_events_to_providers: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_to_providers.table.gz - 0.4 KB)
+0048.094 (0) Table wpmd_5_amelia_extras: Total expected rows (approximate): 0
+0048.099 (0) Table wpmd_5_amelia_extras: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.100 (0) Table wpmd_5_amelia_extras: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_extras.table.gz - 0.4 KB)
+0048.104 (0) Table wpmd_5_amelia_galleries: Total expected rows (approximate): 0
+0048.109 (0) Table wpmd_5_amelia_galleries: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.111 (0) Table wpmd_5_amelia_galleries: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_galleries.table.gz - 0.3 KB)
+0048.114 (0) Table wpmd_5_amelia_locations: Total expected rows (approximate): 0
+0048.119 (0) Table wpmd_5_amelia_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.120 (0) Table wpmd_5_amelia_locations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_locations.table.gz - 0.4 KB)
+0048.123 (0) Table wpmd_5_amelia_locations_views: Total expected rows (approximate): 0
+0048.129 (0) Table wpmd_5_amelia_locations_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.130 (0) Table wpmd_5_amelia_locations_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_locations_views.table.gz - 0.4 KB)
+0048.134 (0) Table wpmd_5_amelia_notifications: Total expected rows (approximate): 50
+0048.141 (0) Table wpmd_5_amelia_notifications: Rows added in this batch (start page: 0; next: finished): 50 in 0.01 seconds
+0048.143 (0) Table wpmd_5_amelia_notifications: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications.table.gz - 2.3 KB)
+0048.146 (0) Table wpmd_5_amelia_notifications_log: Total expected rows (approximate): 0
+0048.151 (0) Table wpmd_5_amelia_notifications_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.152 (0) Table wpmd_5_amelia_notifications_log: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications_log.table.gz - 0.4 KB)
+0048.156 (0) Table wpmd_5_amelia_notifications_sms_history: Total expected rows (approximate): 0
+0048.162 (0) Table wpmd_5_amelia_notifications_sms_history: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.163 (0) Table wpmd_5_amelia_notifications_sms_history: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications_sms_history.table.gz - 0.5 KB)
+0048.168 (0) Table wpmd_5_amelia_payments: Total expected rows (approximate): 0
+0048.172 (0) Table wpmd_5_amelia_payments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.174 (0) Table wpmd_5_amelia_payments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_payments.table.gz - 0.5 KB)
+0048.179 (0) Table wpmd_5_amelia_providers_to_daysoff: Total expected rows (approximate): 0
+0048.184 (0) Table wpmd_5_amelia_providers_to_daysoff: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.186 (0) Table wpmd_5_amelia_providers_to_daysoff: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_daysoff.table.gz - 0.4 KB)
+0048.191 (0) Table wpmd_5_amelia_providers_to_events: Total expected rows (approximate): 0
+0048.195 (0) Table wpmd_5_amelia_providers_to_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.196 (0) Table wpmd_5_amelia_providers_to_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_events.table.gz - 0.4 KB)
+0048.207 (0) Table wpmd_5_amelia_providers_to_google_calendar: Total expected rows (approximate): 0
+0048.210 (0) Table wpmd_5_amelia_providers_to_google_calendar: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.211 (0) Table wpmd_5_amelia_providers_to_google_calendar: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_google_calendar.table.gz - 0.3 KB)
+0048.215 (0) Table wpmd_5_amelia_providers_to_locations: Total expected rows (approximate): 0
+0048.220 (0) Table wpmd_5_amelia_providers_to_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.221 (0) Table wpmd_5_amelia_providers_to_locations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_locations.table.gz - 0.4 KB)
+0048.225 (0) Table wpmd_5_amelia_providers_to_periods: Total expected rows (approximate): 0
+0048.229 (0) Table wpmd_5_amelia_providers_to_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.231 (0) Table wpmd_5_amelia_providers_to_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_periods.table.gz - 0.4 KB)
+0048.236 (0) Table wpmd_5_amelia_providers_to_periods_services: Total expected rows (approximate): 0
+0048.241 (0) Table wpmd_5_amelia_providers_to_periods_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.242 (0) Table wpmd_5_amelia_providers_to_periods_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_periods_services.table.gz - 0.4 KB)
+0048.245 (0) Table wpmd_5_amelia_providers_to_services: Total expected rows (approximate): 0
+0048.250 (0) Table wpmd_5_amelia_providers_to_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.251 (0) Table wpmd_5_amelia_providers_to_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_services.table.gz - 0.4 KB)
+0048.255 (0) Table wpmd_5_amelia_providers_to_specialdays: Total expected rows (approximate): 0
+0048.259 (0) Table wpmd_5_amelia_providers_to_specialdays: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.260 (0) Table wpmd_5_amelia_providers_to_specialdays: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays.table.gz - 0.4 KB)
+0048.264 (0) Table wpmd_5_amelia_providers_to_specialdays_periods: Total expected rows (approximate): 0
+0048.269 (0) Table wpmd_5_amelia_providers_to_specialdays_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.270 (0) Table wpmd_5_amelia_providers_to_specialdays_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays_periods.table.gz - 0.4 KB)
+0048.274 (0) Table wpmd_5_amelia_providers_to_specialdays_periods_services: Total expected rows (approximate): 0
+0048.278 (0) Table wpmd_5_amelia_providers_to_specialdays_periods_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.279 (0) Table wpmd_5_amelia_providers_to_specialdays_periods_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays_periods_services.table.gz - 0.4 KB)
+0048.282 (0) Table wpmd_5_amelia_providers_to_timeouts: Total expected rows (approximate): 0
+0048.286 (0) Table wpmd_5_amelia_providers_to_timeouts: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.288 (0) Table wpmd_5_amelia_providers_to_timeouts: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_timeouts.table.gz - 0.4 KB)
+0048.292 (0) Table wpmd_5_amelia_providers_to_weekdays: Total expected rows (approximate): 0
+0048.296 (0) Table wpmd_5_amelia_providers_to_weekdays: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.297 (0) Table wpmd_5_amelia_providers_to_weekdays: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_weekdays.table.gz - 0.4 KB)
+0048.301 (0) Table wpmd_5_amelia_providers_views: Total expected rows (approximate): 0
+0048.306 (0) Table wpmd_5_amelia_providers_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.307 (0) Table wpmd_5_amelia_providers_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_views.table.gz - 0.4 KB)
+0048.311 (0) Table wpmd_5_amelia_services: Total expected rows (approximate): 0
+0048.316 (0) Table wpmd_5_amelia_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.317 (0) Table wpmd_5_amelia_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_services.table.gz - 0.6 KB)
+0048.321 (0) Table wpmd_5_amelia_services_views: Total expected rows (approximate): 0
+0048.326 (0) Table wpmd_5_amelia_services_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.327 (0) Table wpmd_5_amelia_services_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_services_views.table.gz - 0.4 KB)
+0048.332 (0) Table wpmd_5_amelia_users: Total expected rows (approximate): 0
+0048.337 (0) Table wpmd_5_amelia_users: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.338 (0) Table wpmd_5_amelia_users: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_users.table.gz - 0.5 KB)
+0048.349 (0) Table wpmd_5_commentmeta: Total expected rows (approximate): 0
+0048.352 (0) Table wpmd_5_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.353 (0) Table wpmd_5_commentmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_commentmeta.table.gz - 0.4 KB)
+0048.367 (0) Table wpmd_5_comments: Total expected rows (approximate): 2
+0048.371 (0) Table wpmd_5_comments: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0048.373 (0) Table wpmd_5_comments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_comments.table.gz - 0.8 KB)
+0048.386 (0) Table wpmd_5_da_hm_connect: Total expected rows (approximate): 6
+0048.401 (0) Table wpmd_5_da_hm_connect: Rows added in this batch (start page: 0; next: finished): 6 in 0.01 seconds
+0048.403 (0) Table wpmd_5_da_hm_connect: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_da_hm_connect.table.gz - 1.4 KB)
+0048.414 (0) Table wpmd_5_links: Total expected rows (approximate): 0
+0048.418 (0) Table wpmd_5_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.420 (0) Table wpmd_5_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_links.table.gz - 0.4 KB)
+0048.431 (0) Table wpmd_5_oauth_access_tokens: Total expected rows (approximate): 0
+0048.434 (0) Table wpmd_5_oauth_access_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.435 (0) Table wpmd_5_oauth_access_tokens: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_access_tokens.table.gz - 0.4 KB)
+0048.446 (0) Table wpmd_5_oauth_authorization_codes: Total expected rows (approximate): 0
+0048.449 (0) Table wpmd_5_oauth_authorization_codes: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.450 (0) Table wpmd_5_oauth_authorization_codes: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_authorization_codes.table.gz - 0.4 KB)
+0048.460 (0) Table wpmd_5_oauth_jwt: Total expected rows (approximate): 0
+0048.463 (0) Table wpmd_5_oauth_jwt: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.464 (0) Table wpmd_5_oauth_jwt: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_jwt.table.gz - 0.3 KB)
+0048.473 (0) Table wpmd_5_oauth_public_keys: Total expected rows (approximate): 0
+0048.475 (0) Table wpmd_5_oauth_public_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.477 (0) Table wpmd_5_oauth_public_keys: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_public_keys.table.gz - 0.3 KB)
+0048.488 (0) Table wpmd_5_oauth_refresh_tokens: Total expected rows (approximate): 0
+0048.491 (0) Table wpmd_5_oauth_refresh_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.493 (0) Table wpmd_5_oauth_refresh_tokens: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_refresh_tokens.table.gz - 0.3 KB)
+0048.503 (0) Table wpmd_5_oauth_scopes: Total expected rows (approximate): 0
+0048.505 (0) Table wpmd_5_oauth_scopes: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.506 (0) Table wpmd_5_oauth_scopes: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_scopes.table.gz - 0.3 KB)
+0048.516 (0) Table wpmd_5_options: Total expected rows (approximate): 489
+0048.531 (0) Table wpmd_5_options: Rows added in this batch (start page: 0; next: finished): 489 in 0.01 seconds
+0048.532 (0) Table wpmd_5_options: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_options.table.gz - 19.3 KB)
+0048.542 (0) Table wpmd_5_post_views: Total expected rows (approximate): 0
+0048.545 (0) Table wpmd_5_post_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.546 (0) Table wpmd_5_post_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_post_views.table.gz - 0.4 KB)
+0048.556 (0) Table wpmd_5_postmeta: Total expected rows (approximate): 617
+0048.565 (0) Table wpmd_5_postmeta: Rows added in this batch (start page: 0; next: finished): 617 in 0.01 seconds
+0048.566 (0) Table wpmd_5_postmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_postmeta.table.gz - 7.4 KB)
+0048.576 (0) Table wpmd_5_posts: Total expected rows (approximate): 58
+0048.602 (0) Table wpmd_5_posts: Rows added in this batch (start page: 0; next: finished): 58 in 0.02 seconds
+0048.603 (0) Table wpmd_5_posts: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_posts.table.gz - 56.1 KB)
+0048.613 (0) Table wpmd_5_term_relationships: Total expected rows (approximate): 188
+0048.617 (0) Table wpmd_5_term_relationships: Rows added in this batch (start page: 0; next: finished): 188 in 0.00 seconds
+0048.618 (0) Table wpmd_5_term_relationships: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_term_relationships.table.gz - 0.9 KB)
+0048.627 (0) Table wpmd_5_term_taxonomy: Total expected rows (approximate): 182
+0048.633 (0) Table wpmd_5_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 182 in 0.00 seconds
+0048.634 (0) Table wpmd_5_term_taxonomy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_term_taxonomy.table.gz - 1.5 KB)
+0048.646 (0) Table wpmd_5_termmeta: Total expected rows (approximate): 0
+0048.649 (0) Table wpmd_5_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.650 (0) Table wpmd_5_termmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_termmeta.table.gz - 0.4 KB)
+0048.660 (0) Table wpmd_5_terms: Total expected rows (approximate): 182
+0048.667 (0) Table wpmd_5_terms: Rows added in this batch (start page: 0; next: finished): 182 in 0.00 seconds
+0048.668 (0) Table wpmd_5_terms: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_terms.table.gz - 2.9 KB)
+0048.678 (0) Table wpmd_5_yoast_indexable: Total expected rows (approximate): 0
+0048.682 (0) Table wpmd_5_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.683 (0) Table wpmd_5_yoast_indexable: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_indexable.table.gz - 0.9 KB)
+0048.694 (0) Table wpmd_5_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0048.697 (0) Table wpmd_5_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.698 (0) Table wpmd_5_yoast_indexable_hierarchy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0048.712 (0) Table wpmd_5_yoast_migrations: Total expected rows (approximate): 18
+0048.716 (0) Table wpmd_5_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 18 in 0.00 seconds
+0048.717 (0) Table wpmd_5_yoast_migrations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_migrations.table.gz - 0.5 KB)
+0048.729 (0) Table wpmd_5_yoast_primary_term: Total expected rows (approximate): 0
+0048.733 (0) Table wpmd_5_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.734 (0) Table wpmd_5_yoast_primary_term: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_primary_term.table.gz - 0.4 KB)
+0048.745 (0) Table wpmd_5_yoast_seo_links: Total expected rows (approximate): 3
+0048.748 (0) Table wpmd_5_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0048.750 (0) Table wpmd_5_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_seo_links.table.gz - 0.6 KB)
+0048.761 (0) Table wpmd_5_yoast_seo_meta: Total expected rows (approximate): 23
+0048.765 (0) Table wpmd_5_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 23 in 0.00 seconds
+0048.766 (0) Table wpmd_5_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_seo_meta.table.gz - 0.4 KB)
+0048.777 (0) Table wpmd_6_actionscheduler_actions: Total expected rows (approximate): 0
+0048.781 (0) Table wpmd_6_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.782 (0) Table wpmd_6_actionscheduler_actions: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_actions.table.gz - 0.5 KB)
+0048.795 (0) Table wpmd_6_actionscheduler_claims: Total expected rows (approximate): 0
+0048.798 (0) Table wpmd_6_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.800 (0) Table wpmd_6_actionscheduler_claims: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_claims.table.gz - 0.3 KB)
+0048.811 (0) Table wpmd_6_actionscheduler_groups: Total expected rows (approximate): 0
+0048.814 (0) Table wpmd_6_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.815 (0) Table wpmd_6_actionscheduler_groups: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_groups.table.gz - 0.3 KB)
+0048.825 (0) Table wpmd_6_actionscheduler_logs: Total expected rows (approximate): 0
+0048.828 (0) Table wpmd_6_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.829 (0) Table wpmd_6_actionscheduler_logs: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_logs.table.gz - 0.4 KB)
+0048.840 (0) Table wpmd_6_commentmeta: Total expected rows (approximate): 0
+0048.843 (0) Table wpmd_6_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.843 (0) Table wpmd_6_commentmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_commentmeta.table.gz - 0.4 KB)
+0048.854 (0) Table wpmd_6_comments: Total expected rows (approximate): 2
+0048.858 (0) Table wpmd_6_comments: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0048.859 (0) Table wpmd_6_comments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_comments.table.gz - 0.8 KB)
+0048.872 (0) Table wpmd_6_da_hm_connect: Total expected rows (approximate): 0
+0048.888 (0) Table wpmd_6_da_hm_connect: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0048.890 (0) Table wpmd_6_da_hm_connect: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_da_hm_connect.table.gz - 1.1 KB)
+0048.902 (0) Table wpmd_6_links: Total expected rows (approximate): 0
+0048.905 (0) Table wpmd_6_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.906 (0) Table wpmd_6_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_links.table.gz - 0.4 KB)
+0048.917 (0) Table wpmd_6_options: Total expected rows (approximate): 464
+0048.934 (0) Table wpmd_6_options: Rows added in this batch (start page: 0; next: finished): 464 in 0.02 seconds
+0048.936 (0) Table wpmd_6_options: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_options.table.gz - 19.1 KB)
+0048.947 (0) Table wpmd_6_post_views: Total expected rows (approximate): 0
+0048.950 (0) Table wpmd_6_post_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0048.952 (0) Table wpmd_6_post_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_post_views.table.gz - 0.4 KB)
+0048.965 (0) Table wpmd_6_postmeta: Total expected rows (approximate): 426
+0048.973 (0) Table wpmd_6_postmeta: Rows added in this batch (start page: 0; next: finished): 426 in 0.01 seconds
+0048.974 (0) Table wpmd_6_postmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_postmeta.table.gz - 6.1 KB)
+0048.985 (0) Table wpmd_6_posts: Total expected rows (approximate): 47
+0049.000 (0) Table wpmd_6_posts: Rows added in this batch (start page: 0; next: finished): 47 in 0.01 seconds
+0049.002 (0) Table wpmd_6_posts: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_posts.table.gz - 39.5 KB)
+0049.015 (0) Table wpmd_6_term_relationships: Total expected rows (approximate): 192
+0049.020 (0) Table wpmd_6_term_relationships: Rows added in this batch (start page: 0; next: finished): 192 in 0.00 seconds
+0049.021 (0) Table wpmd_6_term_relationships: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_term_relationships.table.gz - 0.9 KB)
+0049.033 (0) Table wpmd_6_term_taxonomy: Total expected rows (approximate): 189
+0049.039 (0) Table wpmd_6_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 189 in 0.01 seconds
+0049.040 (0) Table wpmd_6_term_taxonomy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_term_taxonomy.table.gz - 1.6 KB)
+0049.051 (0) Table wpmd_6_termmeta: Total expected rows (approximate): 0
+0049.055 (0) Table wpmd_6_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.056 (0) Table wpmd_6_termmeta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_termmeta.table.gz - 0.4 KB)
+0049.070 (0) Table wpmd_6_terms: Total expected rows (approximate): 189
+0049.076 (0) Table wpmd_6_terms: Rows added in this batch (start page: 0; next: finished): 189 in 0.00 seconds
+0049.077 (0) Table wpmd_6_terms: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_terms.table.gz - 3 KB)
+0049.089 (0) Table wpmd_6_yoast_indexable: Total expected rows (approximate): 0
+0049.093 (0) Table wpmd_6_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.094 (0) Table wpmd_6_yoast_indexable: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_indexable.table.gz - 0.9 KB)
+0049.105 (0) Table wpmd_6_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0049.107 (0) Table wpmd_6_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.108 (0) Table wpmd_6_yoast_indexable_hierarchy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0049.118 (0) Table wpmd_6_yoast_migrations: Total expected rows (approximate): 18
+0049.123 (0) Table wpmd_6_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 18 in 0.00 seconds
+0049.124 (0) Table wpmd_6_yoast_migrations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_migrations.table.gz - 0.5 KB)
+0049.136 (0) Table wpmd_6_yoast_primary_term: Total expected rows (approximate): 0
+0049.139 (0) Table wpmd_6_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.140 (0) Table wpmd_6_yoast_primary_term: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_primary_term.table.gz - 0.4 KB)
+0049.153 (0) Table wpmd_6_yoast_seo_links: Total expected rows (approximate): 85
+0049.160 (0) Table wpmd_6_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 85 in 0.01 seconds
+0049.161 (0) Table wpmd_6_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_seo_links.table.gz - 1.2 KB)
+0049.172 (0) Table wpmd_6_yoast_seo_meta: Total expected rows (approximate): 18
+0049.176 (0) Table wpmd_6_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 18 in 0.00 seconds
+0049.177 (0) Table wpmd_6_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_seo_meta.table.gz - 0.4 KB)
+0049.181 (0) Table wpmd_amelia_appointments: Total expected rows (approximate): 0
+0049.186 (0) Table wpmd_amelia_appointments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.188 (0) Table wpmd_amelia_appointments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_appointments.table.gz - 0.5 KB)
+0049.192 (0) Table wpmd_amelia_categories: Total expected rows (approximate): 0
+0049.196 (0) Table wpmd_amelia_categories: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.198 (0) Table wpmd_amelia_categories: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_categories.table.gz - 0.3 KB)
+0049.202 (0) Table wpmd_amelia_coupons: Total expected rows (approximate): 0
+0049.207 (0) Table wpmd_amelia_coupons: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.208 (0) Table wpmd_amelia_coupons: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons.table.gz - 0.4 KB)
+0049.213 (0) Table wpmd_amelia_coupons_to_events: Total expected rows (approximate): 0
+0049.217 (0) Table wpmd_amelia_coupons_to_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.218 (0) Table wpmd_amelia_coupons_to_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons_to_events.table.gz - 0.4 KB)
+0049.222 (0) Table wpmd_amelia_coupons_to_services: Total expected rows (approximate): 0
+0049.227 (0) Table wpmd_amelia_coupons_to_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.228 (0) Table wpmd_amelia_coupons_to_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons_to_services.table.gz - 0.4 KB)
+0049.232 (0) Table wpmd_amelia_custom_fields: Total expected rows (approximate): 0
+0049.237 (0) Table wpmd_amelia_custom_fields: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.238 (0) Table wpmd_amelia_custom_fields: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields.table.gz - 0.4 KB)
+0049.242 (0) Table wpmd_amelia_custom_fields_events: Total expected rows (approximate): 0
+0049.246 (0) Table wpmd_amelia_custom_fields_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.247 (0) Table wpmd_amelia_custom_fields_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_events.table.gz - 0.4 KB)
+0049.252 (0) Table wpmd_amelia_custom_fields_options: Total expected rows (approximate): 0
+0049.258 (0) Table wpmd_amelia_custom_fields_options: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.259 (0) Table wpmd_amelia_custom_fields_options: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_options.table.gz - 0.4 KB)
+0049.264 (0) Table wpmd_amelia_custom_fields_services: Total expected rows (approximate): 0
+0049.268 (0) Table wpmd_amelia_custom_fields_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.269 (0) Table wpmd_amelia_custom_fields_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_services.table.gz - 0.4 KB)
+0049.273 (0) Table wpmd_amelia_customer_bookings: Total expected rows (approximate): 0
+0049.278 (0) Table wpmd_amelia_customer_bookings: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.280 (0) Table wpmd_amelia_customer_bookings: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings.table.gz - 0.5 KB)
+0049.283 (0) Table wpmd_amelia_customer_bookings_to_events_periods: Total expected rows (approximate): 0
+0049.287 (0) Table wpmd_amelia_customer_bookings_to_events_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.288 (0) Table wpmd_amelia_customer_bookings_to_events_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings_to_events_periods.table.gz - 0.4 KB)
+0049.293 (0) Table wpmd_amelia_customer_bookings_to_extras: Total expected rows (approximate): 0
+0049.298 (0) Table wpmd_amelia_customer_bookings_to_extras: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.299 (0) Table wpmd_amelia_customer_bookings_to_extras: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings_to_extras.table.gz - 0.4 KB)
+0049.303 (0) Table wpmd_amelia_events: Total expected rows (approximate): 0
+0049.308 (0) Table wpmd_amelia_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.309 (0) Table wpmd_amelia_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events.table.gz - 0.6 KB)
+0049.313 (0) Table wpmd_amelia_events_periods: Total expected rows (approximate): 0
+0049.318 (0) Table wpmd_amelia_events_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.319 (0) Table wpmd_amelia_events_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_periods.table.gz - 0.4 KB)
+0049.324 (0) Table wpmd_amelia_events_tags: Total expected rows (approximate): 0
+0049.329 (0) Table wpmd_amelia_events_tags: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.331 (0) Table wpmd_amelia_events_tags: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_tags.table.gz - 0.4 KB)
+0049.335 (0) Table wpmd_amelia_events_to_providers: Total expected rows (approximate): 0
+0049.339 (0) Table wpmd_amelia_events_to_providers: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.340 (0) Table wpmd_amelia_events_to_providers: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_to_providers.table.gz - 0.4 KB)
+0049.343 (0) Table wpmd_amelia_extras: Total expected rows (approximate): 0
+0049.347 (0) Table wpmd_amelia_extras: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.348 (0) Table wpmd_amelia_extras: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_extras.table.gz - 0.4 KB)
+0049.353 (0) Table wpmd_amelia_galleries: Total expected rows (approximate): 0
+0049.359 (0) Table wpmd_amelia_galleries: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.360 (0) Table wpmd_amelia_galleries: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_galleries.table.gz - 0.3 KB)
+0049.363 (0) Table wpmd_amelia_locations: Total expected rows (approximate): 0
+0049.367 (0) Table wpmd_amelia_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.369 (0) Table wpmd_amelia_locations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_locations.table.gz - 0.4 KB)
+0049.373 (0) Table wpmd_amelia_locations_views: Total expected rows (approximate): 0
+0049.378 (0) Table wpmd_amelia_locations_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.379 (0) Table wpmd_amelia_locations_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_locations_views.table.gz - 0.4 KB)
+0049.384 (0) Table wpmd_amelia_notifications: Total expected rows (approximate): 50
+0049.391 (0) Table wpmd_amelia_notifications: Rows added in this batch (start page: 0; next: finished): 50 in 0.01 seconds
+0049.393 (0) Table wpmd_amelia_notifications: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications.table.gz - 2.3 KB)
+0049.396 (0) Table wpmd_amelia_notifications_log: Total expected rows (approximate): 0
+0049.400 (0) Table wpmd_amelia_notifications_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.401 (0) Table wpmd_amelia_notifications_log: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications_log.table.gz - 0.4 KB)
+0049.404 (0) Table wpmd_amelia_notifications_sms_history: Total expected rows (approximate): 0
+0049.409 (0) Table wpmd_amelia_notifications_sms_history: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.410 (0) Table wpmd_amelia_notifications_sms_history: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications_sms_history.table.gz - 0.5 KB)
+0049.413 (0) Table wpmd_amelia_payments: Total expected rows (approximate): 0
+0049.418 (0) Table wpmd_amelia_payments: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.419 (0) Table wpmd_amelia_payments: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_payments.table.gz - 0.5 KB)
+0049.422 (0) Table wpmd_amelia_providers_to_daysoff: Total expected rows (approximate): 0
+0049.427 (0) Table wpmd_amelia_providers_to_daysoff: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.429 (0) Table wpmd_amelia_providers_to_daysoff: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_daysoff.table.gz - 0.4 KB)
+0049.432 (0) Table wpmd_amelia_providers_to_events: Total expected rows (approximate): 0
+0049.436 (0) Table wpmd_amelia_providers_to_events: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.438 (0) Table wpmd_amelia_providers_to_events: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_events.table.gz - 0.4 KB)
+0049.449 (0) Table wpmd_amelia_providers_to_google_calendar: Total expected rows (approximate): 0
+0049.451 (0) Table wpmd_amelia_providers_to_google_calendar: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.452 (0) Table wpmd_amelia_providers_to_google_calendar: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_google_calendar.table.gz - 0.3 KB)
+0049.456 (0) Table wpmd_amelia_providers_to_locations: Total expected rows (approximate): 0
+0049.461 (0) Table wpmd_amelia_providers_to_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.462 (0) Table wpmd_amelia_providers_to_locations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_locations.table.gz - 0.4 KB)
+0049.466 (0) Table wpmd_amelia_providers_to_periods: Total expected rows (approximate): 0
+0049.472 (0) Table wpmd_amelia_providers_to_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.473 (0) Table wpmd_amelia_providers_to_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_periods.table.gz - 0.4 KB)
+0049.478 (0) Table wpmd_amelia_providers_to_periods_services: Total expected rows (approximate): 0
+0049.482 (0) Table wpmd_amelia_providers_to_periods_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.484 (0) Table wpmd_amelia_providers_to_periods_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_periods_services.table.gz - 0.4 KB)
+0049.488 (0) Table wpmd_amelia_providers_to_services: Total expected rows (approximate): 0
+0049.493 (0) Table wpmd_amelia_providers_to_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.494 (0) Table wpmd_amelia_providers_to_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_services.table.gz - 0.4 KB)
+0049.497 (0) Table wpmd_amelia_providers_to_specialdays: Total expected rows (approximate): 0
+0049.503 (0) Table wpmd_amelia_providers_to_specialdays: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0049.505 (0) Table wpmd_amelia_providers_to_specialdays: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays.table.gz - 0.4 KB)
+0049.509 (0) Table wpmd_amelia_providers_to_specialdays_periods: Total expected rows (approximate): 0
+0049.513 (0) Table wpmd_amelia_providers_to_specialdays_periods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.514 (0) Table wpmd_amelia_providers_to_specialdays_periods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays_periods.table.gz - 0.4 KB)
+0049.518 (0) Table wpmd_amelia_providers_to_specialdays_periods_services: Total expected rows (approximate): 0
+0049.522 (0) Table wpmd_amelia_providers_to_specialdays_periods_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.523 (0) Table wpmd_amelia_providers_to_specialdays_periods_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays_periods_services.table.gz - 0.4 KB)
+0049.526 (0) Table wpmd_amelia_providers_to_timeouts: Total expected rows (approximate): 0
+0049.530 (0) Table wpmd_amelia_providers_to_timeouts: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.531 (0) Table wpmd_amelia_providers_to_timeouts: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_timeouts.table.gz - 0.4 KB)
+0049.535 (0) Table wpmd_amelia_providers_to_weekdays: Total expected rows (approximate): 0
+0049.540 (0) Table wpmd_amelia_providers_to_weekdays: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.541 (0) Table wpmd_amelia_providers_to_weekdays: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_weekdays.table.gz - 0.4 KB)
+0049.545 (0) Table wpmd_amelia_providers_views: Total expected rows (approximate): 0
+0049.549 (0) Table wpmd_amelia_providers_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.550 (0) Table wpmd_amelia_providers_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_views.table.gz - 0.4 KB)
+0049.555 (0) Table wpmd_amelia_services: Total expected rows (approximate): 0
+0049.560 (0) Table wpmd_amelia_services: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.563 (0) Table wpmd_amelia_services: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_services.table.gz - 0.6 KB)
+0049.566 (0) Table wpmd_amelia_services_views: Total expected rows (approximate): 0
+0049.570 (0) Table wpmd_amelia_services_views: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.571 (0) Table wpmd_amelia_services_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_services_views.table.gz - 0.4 KB)
+0049.575 (0) Table wpmd_amelia_users: Total expected rows (approximate): 0
+0049.580 (0) Table wpmd_amelia_users: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.581 (0) Table wpmd_amelia_users: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_users.table.gz - 0.5 KB)
+0049.595 (0) Table wpmd_da_hm_connect: Total expected rows (approximate): 8
+0049.609 (0) Table wpmd_da_hm_connect: Rows added in this batch (start page: 0; next: finished): 8 in 0.01 seconds
+0049.611 (0) Table wpmd_da_hm_connect: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_da_hm_connect.table.gz - 1.4 KB)
+0049.615 (0) Table wpmd_elfsight_pricing_table_widgets: Total expected rows (approximate): 0
+0049.620 (0) Table wpmd_elfsight_pricing_table_widgets: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.621 (0) Table wpmd_elfsight_pricing_table_widgets: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_elfsight_pricing_table_widgets.table.gz - 0.4 KB)
+0049.625 (0) Table wpmd_elfsight_testimonials_slider_widgets: Total expected rows (approximate): 0
+0049.630 (0) Table wpmd_elfsight_testimonials_slider_widgets: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0049.631 (0) Table wpmd_elfsight_testimonials_slider_widgets: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_elfsight_testimonials_slider_widgets.table.gz - 2 KB)
+0049.636 (0) Table wpmd_post_views: Total expected rows (approximate): 496
+0049.645 (0) Table wpmd_post_views: Rows added in this batch (start page: 0; next: finished): 496 in 0.01 seconds
+0049.646 (0) Table wpmd_post_views: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_post_views.table.gz - 2.2 KB)
+0049.661 (0) Table wpmd_tg_item_elements: Total expected rows (approximate): 0
+0049.664 (0) Table wpmd_tg_item_elements: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.666 (0) Table wpmd_tg_item_elements: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_tg_item_elements.table.gz - 0.4 KB)
+0049.682 (0) Table wpmd_tg_item_skins: Total expected rows (approximate): 0
+0049.685 (0) Table wpmd_tg_item_skins: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.686 (0) Table wpmd_tg_item_skins: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_tg_item_skins.table.gz - 0.4 KB)
+0049.697 (0) Table wpmd_wfblockediplog: Total expected rows (approximate): 2
+0049.701 (0) Table wpmd_wfblockediplog: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0049.702 (0) Table wpmd_wfblockediplog: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfblockediplog.table.gz - 0.4 KB)
+0049.705 (0) Table wpmd_wfblocks7: Total expected rows (approximate): 0
+0049.707 (0) Table wpmd_wfblocks7: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.708 (0) Table wpmd_wfblocks7: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfblocks7.table.gz - 0.4 KB)
+0049.711 (0) Table wpmd_wfconfig: Total expected rows (approximate): 258
+0049.791 (0) Table wpmd_wfconfig: Rows added in this batch (start page: 0; next: finished): 258 in 0.08 seconds
+0049.793 (0) Table wpmd_wfconfig: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfconfig.table.gz - 416.4 KB)
+0049.807 (0) Table wpmd_wfcrawlers: Total expected rows (approximate): 8
+0049.812 (0) Table wpmd_wfcrawlers: Rows added in this batch (start page: 0; next: finished): 8 in 0.00 seconds
+0049.813 (0) Table wpmd_wfcrawlers: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfcrawlers.table.gz - 0.5 KB)
+0049.827 (0) Table wpmd_wffilechanges: Total expected rows (approximate): 0
+0049.831 (0) Table wpmd_wffilechanges: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0049.832 (0) Table wpmd_wffilechanges: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wffilechanges.table.gz - 0.3 KB)
+0049.844 (0) Table wpmd_wffilemods: Total expected rows (approximate): 9362
+0049.993 (0) Table wpmd_wffilemods: binary mysqldump finished (writes: 36) in 0.15 seconds
+0049.995 (0) Table wpmd_wffilemods: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wffilemods.table.gz - 690 KB)
+0050.000 (0) Table wpmd_wfhits: Total expected rows (approximate): 14
+0050.004 (0) Table wpmd_wfhits: Rows added in this batch (start page: 0; next: finished): 14 in 0.00 seconds
+0050.005 (0) Table wpmd_wfhits: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfhits.table.gz - 1.5 KB)
+0050.018 (0) Table wpmd_wfhoover: Total expected rows (approximate): 0
+0050.021 (0) Table wpmd_wfhoover: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.022 (0) Table wpmd_wfhoover: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfhoover.table.gz - 0.3 KB)
+0050.035 (0) Table wpmd_wfissues: Total expected rows (approximate): 5
+0050.040 (0) Table wpmd_wfissues: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0050.042 (0) Table wpmd_wfissues: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfissues.table.gz - 2.2 KB)
+0050.053 (0) Table wpmd_wfknownfilelist: Total expected rows (approximate): 9362
+0050.127 (0) Table wpmd_wfknownfilelist: binary mysqldump finished (writes: 28) in 0.07 seconds
+0050.130 (0) Table wpmd_wfknownfilelist: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfknownfilelist.table.gz - 96.6 KB)
+0050.133 (0) Table wpmd_wflivetraffichuman: Total expected rows (approximate): 0
+0050.136 (0) Table wpmd_wflivetraffichuman: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.137 (0) Table wpmd_wflivetraffichuman: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflivetraffichuman.table.gz - 0.3 KB)
+0050.147 (0) Table wpmd_wflocs: Total expected rows (approximate): 0
+0050.150 (0) Table wpmd_wflocs: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.151 (0) Table wpmd_wflocs: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflocs.table.gz - 0.4 KB)
+0050.164 (0) Table wpmd_wflogins: Total expected rows (approximate): 179
+0050.172 (0) Table wpmd_wflogins: Rows added in this batch (start page: 0; next: finished): 179 in 0.01 seconds
+0050.173 (0) Table wpmd_wflogins: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflogins.table.gz - 4.9 KB)
+0050.176 (0) Table wpmd_wfls_2fa_secrets: Total expected rows (approximate): 0
+0050.182 (0) Table wpmd_wfls_2fa_secrets: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0050.183 (0) Table wpmd_wfls_2fa_secrets: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfls_2fa_secrets.table.gz - 0.5 KB)
+0050.187 (0) Table wpmd_wfls_settings: Total expected rows (approximate): 17
+0050.191 (0) Table wpmd_wfls_settings: Rows added in this batch (start page: 0; next: finished): 19 in 0.00 seconds
+0050.192 (0) Table wpmd_wfls_settings: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfls_settings.table.gz - 0.8 KB)
+0050.206 (0) Table wpmd_wfnotifications: Total expected rows (approximate): 3
+0050.211 (0) Table wpmd_wfnotifications: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0050.213 (0) Table wpmd_wfnotifications: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfnotifications.table.gz - 0.6 KB)
+0050.228 (0) Table wpmd_wfpendingissues: Total expected rows (approximate): 0
+0050.232 (0) Table wpmd_wfpendingissues: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.233 (0) Table wpmd_wfpendingissues: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfpendingissues.table.gz - 0.4 KB)
+0050.244 (0) Table wpmd_wfreversecache: Total expected rows (approximate): 4
+0050.249 (0) Table wpmd_wfreversecache: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0050.250 (0) Table wpmd_wfreversecache: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfreversecache.table.gz - 0.4 KB)
+0050.264 (0) Table wpmd_wfsnipcache: Total expected rows (approximate): 0
+0050.268 (0) Table wpmd_wfsnipcache: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.269 (0) Table wpmd_wfsnipcache: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfsnipcache.table.gz - 0.4 KB)
+0050.280 (0) Table wpmd_wfstatus: Total expected rows (approximate): 1236
+0050.304 (0) Table wpmd_wfstatus: Rows added in this batch (start page: 0; next: finished): 1236 in 0.02 seconds
+0050.306 (0) Table wpmd_wfstatus: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfstatus.table.gz - 22 KB)
+0050.309 (0) Table wpmd_wftrafficrates: Total expected rows (approximate): 0
+0050.311 (0) Table wpmd_wftrafficrates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.312 (0) Table wpmd_wftrafficrates: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wftrafficrates.table.gz - 0.3 KB)
+0050.321 (0) Table wpmd_wpmailsmtp_tasks_meta: Total expected rows (approximate): 4
+0050.324 (0) Table wpmd_wpmailsmtp_tasks_meta: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0050.325 (0) Table wpmd_wpmailsmtp_tasks_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wpmailsmtp_tasks_meta.table.gz - 0.5 KB)
+0050.328 (0) Table wpmd_yoast_indexable: Total expected rows (approximate): 59
+0050.337 (0) Table wpmd_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 59 in 0.01 seconds
+0050.339 (0) Table wpmd_yoast_indexable: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_indexable.table.gz - 7.4 KB)
+0050.349 (0) Table wpmd_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0050.352 (0) Table wpmd_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0050.353 (0) Table wpmd_yoast_indexable_hierarchy: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0050.364 (0) Table wpmd_yoast_migrations: Total expected rows (approximate): 18
+0050.367 (0) Table wpmd_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 18 in 0.00 seconds
+0050.368 (0) Table wpmd_yoast_migrations: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_migrations.table.gz - 0.5 KB)
+0050.378 (0) Table wpmd_yoast_primary_term: Total expected rows (approximate): 9
+0050.382 (0) Table wpmd_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 9 in 0.00 seconds
+0050.383 (0) Table wpmd_yoast_primary_term: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_primary_term.table.gz - 0.6 KB)
+0050.394 (0) Table wpmd_yoast_seo_links: Total expected rows (approximate): 196
+0050.401 (0) Table wpmd_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 196 in 0.01 seconds
+0050.402 (0) Table wpmd_yoast_seo_links: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_seo_links.table.gz - 4 KB)
+0050.412 (0) Table wpmd_yoast_seo_meta: Total expected rows (approximate): 239
+0050.417 (0) Table wpmd_yoast_seo_meta: Rows added in this batch (start page: 0; next: finished): 239 in 0.00 seconds
+0050.418 (0) Table wpmd_yoast_seo_meta: finishing file (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_seo_meta.table.gz - 1 KB)
+0050.420 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_options.table.gz (1/195): adding to final database dump
+0050.428 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_site.table.gz (2/195): adding to final database dump
+0050.429 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_blogs.table.gz (3/195): adding to final database dump
+0050.430 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_users.table.gz (4/195): adding to final database dump
+0050.431 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_usermeta.table.gz (5/195): adding to final database dump
+0050.433 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_actions.table.gz (6/195): adding to final database dump
+0050.434 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_claims.table.gz (7/195): adding to final database dump
+0050.435 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_groups.table.gz (8/195): adding to final database dump
+0050.436 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_actionscheduler_logs.table.gz (9/195): adding to final database dump
+0050.437 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_blogmeta.table.gz (10/195): adding to final database dump
+0050.438 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_commentmeta.table.gz (11/195): adding to final database dump
+0050.438 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_comments.table.gz (12/195): adding to final database dump
+0050.439 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_links.table.gz (13/195): adding to final database dump
+0050.440 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_postmeta.table.gz (14/195): adding to final database dump
+0050.458 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_posts.table.gz (15/195): adding to final database dump
+0050.580 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_registration_log.table.gz (16/195): adding to final database dump
+0050.582 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_signups.table.gz (17/195): adding to final database dump
+0050.582 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_sitemeta.table.gz (18/195): adding to final database dump
+0050.584 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_term_relationships.table.gz (19/195): adding to final database dump
+0050.585 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_term_taxonomy.table.gz (20/195): adding to final database dump
+0050.586 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_termmeta.table.gz (21/195): adding to final database dump
+0050.587 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_terms.table.gz (22/195): adding to final database dump
+0050.588 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_grules.table.gz (23/195): adding to final database dump
+0050.589 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_yoast_seo_links.table.gz (24/195): adding to final database dump
+0050.591 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_2_yoast_seo_meta.table.gz (25/195): adding to final database dump
+0050.591 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_3_yoast_seo_links.table.gz (26/195): adding to final database dump
+0050.593 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_3_yoast_seo_meta.table.gz (27/195): adding to final database dump
+0050.594 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_4_yoast_seo_links.table.gz (28/195): adding to final database dump
+0050.594 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_4_yoast_seo_meta.table.gz (29/195): adding to final database dump
+0050.596 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_actions.table.gz (30/195): adding to final database dump
+0050.597 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_claims.table.gz (31/195): adding to final database dump
+0050.597 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_groups.table.gz (32/195): adding to final database dump
+0050.598 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_actionscheduler_logs.table.gz (33/195): adding to final database dump
+0050.599 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_appointments.table.gz (34/195): adding to final database dump
+0050.599 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_categories.table.gz (35/195): adding to final database dump
+0050.600 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons.table.gz (36/195): adding to final database dump
+0050.601 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons_to_events.table.gz (37/195): adding to final database dump
+0050.602 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_coupons_to_services.table.gz (38/195): adding to final database dump
+0050.603 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields.table.gz (39/195): adding to final database dump
+0050.604 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_events.table.gz (40/195): adding to final database dump
+0050.605 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_options.table.gz (41/195): adding to final database dump
+0050.606 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_custom_fields_services.table.gz (42/195): adding to final database dump
+0050.607 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings.table.gz (43/195): adding to final database dump
+0050.608 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings_to_events_periods.table.gz (44/195): adding to final database dump
+0050.609 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_customer_bookings_to_extras.table.gz (45/195): adding to final database dump
+0050.609 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events.table.gz (46/195): adding to final database dump
+0050.611 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_periods.table.gz (47/195): adding to final database dump
+0050.612 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_tags.table.gz (48/195): adding to final database dump
+0050.613 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_events_to_providers.table.gz (49/195): adding to final database dump
+0050.614 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_extras.table.gz (50/195): adding to final database dump
+0050.614 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_galleries.table.gz (51/195): adding to final database dump
+0050.616 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_locations.table.gz (52/195): adding to final database dump
+0050.617 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_locations_views.table.gz (53/195): adding to final database dump
+0050.618 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications.table.gz (54/195): adding to final database dump
+0050.619 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications_log.table.gz (55/195): adding to final database dump
+0050.620 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_notifications_sms_history.table.gz (56/195): adding to final database dump
+0050.621 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_payments.table.gz (57/195): adding to final database dump
+0050.622 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_daysoff.table.gz (58/195): adding to final database dump
+0050.623 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_events.table.gz (59/195): adding to final database dump
+0050.624 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_google_calendar.table.gz (60/195): adding to final database dump
+0050.625 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_locations.table.gz (61/195): adding to final database dump
+0050.626 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_periods.table.gz (62/195): adding to final database dump
+0050.627 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_periods_services.table.gz (63/195): adding to final database dump
+0050.627 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_services.table.gz (64/195): adding to final database dump
+0050.628 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays.table.gz (65/195): adding to final database dump
+0050.629 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays_periods.table.gz (66/195): adding to final database dump
+0050.630 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_specialdays_periods_services.table.gz (67/195): adding to final database dump
+0050.631 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_timeouts.table.gz (68/195): adding to final database dump
+0050.632 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_to_weekdays.table.gz (69/195): adding to final database dump
+0050.633 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_providers_views.table.gz (70/195): adding to final database dump
+0050.633 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_services.table.gz (71/195): adding to final database dump
+0050.634 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_services_views.table.gz (72/195): adding to final database dump
+0050.635 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_amelia_users.table.gz (73/195): adding to final database dump
+0050.635 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_commentmeta.table.gz (74/195): adding to final database dump
+0050.636 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_comments.table.gz (75/195): adding to final database dump
+0050.637 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_da_hm_connect.table.gz (76/195): adding to final database dump
+0050.639 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_links.table.gz (77/195): adding to final database dump
+0050.641 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_access_tokens.table.gz (78/195): adding to final database dump
+0050.641 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_authorization_codes.table.gz (79/195): adding to final database dump
+0050.642 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_jwt.table.gz (80/195): adding to final database dump
+0050.643 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_public_keys.table.gz (81/195): adding to final database dump
+0050.644 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_refresh_tokens.table.gz (82/195): adding to final database dump
+0050.646 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_oauth_scopes.table.gz (83/195): adding to final database dump
+0050.646 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_options.table.gz (84/195): adding to final database dump
+0050.653 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_post_views.table.gz (85/195): adding to final database dump
+0050.654 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_postmeta.table.gz (86/195): adding to final database dump
+0050.658 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_posts.table.gz (87/195): adding to final database dump
+0050.677 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_term_relationships.table.gz (88/195): adding to final database dump
+0050.679 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_term_taxonomy.table.gz (89/195): adding to final database dump
+0050.681 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_termmeta.table.gz (90/195): adding to final database dump
+0050.682 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_terms.table.gz (91/195): adding to final database dump
+0050.683 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_indexable.table.gz (92/195): adding to final database dump
+0050.684 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_indexable_hierarchy.table.gz (93/195): adding to final database dump
+0050.685 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_migrations.table.gz (94/195): adding to final database dump
+0050.685 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_primary_term.table.gz (95/195): adding to final database dump
+0050.686 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_seo_links.table.gz (96/195): adding to final database dump
+0050.687 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_5_yoast_seo_meta.table.gz (97/195): adding to final database dump
+0050.688 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_actions.table.gz (98/195): adding to final database dump
+0050.689 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_claims.table.gz (99/195): adding to final database dump
+0050.690 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_groups.table.gz (100/195): adding to final database dump
+0050.692 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_actionscheduler_logs.table.gz (101/195): adding to final database dump
+0050.693 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_commentmeta.table.gz (102/195): adding to final database dump
+0050.694 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_comments.table.gz (103/195): adding to final database dump
+0050.695 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_da_hm_connect.table.gz (104/195): adding to final database dump
+0050.696 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_links.table.gz (105/195): adding to final database dump
+0050.697 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_options.table.gz (106/195): adding to final database dump
+0050.703 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_post_views.table.gz (107/195): adding to final database dump
+0050.704 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_postmeta.table.gz (108/195): adding to final database dump
+0050.706 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_posts.table.gz (109/195): adding to final database dump
+0050.721 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_term_relationships.table.gz (110/195): adding to final database dump
+0050.722 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_term_taxonomy.table.gz (111/195): adding to final database dump
+0050.724 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_termmeta.table.gz (112/195): adding to final database dump
+0050.725 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_terms.table.gz (113/195): adding to final database dump
+0050.727 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_indexable.table.gz (114/195): adding to final database dump
+0050.728 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_indexable_hierarchy.table.gz (115/195): adding to final database dump
+0050.728 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_migrations.table.gz (116/195): adding to final database dump
+0050.729 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_primary_term.table.gz (117/195): adding to final database dump
+0050.730 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_seo_links.table.gz (118/195): adding to final database dump
+0050.732 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_6_yoast_seo_meta.table.gz (119/195): adding to final database dump
+0050.733 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_appointments.table.gz (120/195): adding to final database dump
+0050.734 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_categories.table.gz (121/195): adding to final database dump
+0050.735 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons.table.gz (122/195): adding to final database dump
+0050.736 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons_to_events.table.gz (123/195): adding to final database dump
+0050.737 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_coupons_to_services.table.gz (124/195): adding to final database dump
+0050.738 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields.table.gz (125/195): adding to final database dump
+0050.739 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_events.table.gz (126/195): adding to final database dump
+0050.740 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_options.table.gz (127/195): adding to final database dump
+0050.741 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_custom_fields_services.table.gz (128/195): adding to final database dump
+0050.742 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings.table.gz (129/195): adding to final database dump
+0050.743 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings_to_events_periods.table.gz (130/195): adding to final database dump
+0050.745 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_customer_bookings_to_extras.table.gz (131/195): adding to final database dump
+0050.746 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events.table.gz (132/195): adding to final database dump
+0050.747 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_periods.table.gz (133/195): adding to final database dump
+0050.748 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_tags.table.gz (134/195): adding to final database dump
+0050.748 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_events_to_providers.table.gz (135/195): adding to final database dump
+0050.749 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_extras.table.gz (136/195): adding to final database dump
+0050.750 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_galleries.table.gz (137/195): adding to final database dump
+0050.751 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_locations.table.gz (138/195): adding to final database dump
+0050.752 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_locations_views.table.gz (139/195): adding to final database dump
+0050.753 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications.table.gz (140/195): adding to final database dump
+0050.755 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications_log.table.gz (141/195): adding to final database dump
+0050.755 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_notifications_sms_history.table.gz (142/195): adding to final database dump
+0050.756 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_payments.table.gz (143/195): adding to final database dump
+0050.757 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_daysoff.table.gz (144/195): adding to final database dump
+0050.758 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_events.table.gz (145/195): adding to final database dump
+0050.759 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_google_calendar.table.gz (146/195): adding to final database dump
+0050.761 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_locations.table.gz (147/195): adding to final database dump
+0050.762 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_periods.table.gz (148/195): adding to final database dump
+0050.763 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_periods_services.table.gz (149/195): adding to final database dump
+0050.764 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_services.table.gz (150/195): adding to final database dump
+0050.764 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays.table.gz (151/195): adding to final database dump
+0050.765 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays_periods.table.gz (152/195): adding to final database dump
+0050.766 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_specialdays_periods_services.table.gz (153/195): adding to final database dump
+0050.767 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_timeouts.table.gz (154/195): adding to final database dump
+0050.768 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_to_weekdays.table.gz (155/195): adding to final database dump
+0050.768 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_providers_views.table.gz (156/195): adding to final database dump
+0050.770 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_services.table.gz (157/195): adding to final database dump
+0050.770 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_services_views.table.gz (158/195): adding to final database dump
+0050.771 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_amelia_users.table.gz (159/195): adding to final database dump
+0050.772 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_da_hm_connect.table.gz (160/195): adding to final database dump
+0050.774 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_elfsight_pricing_table_widgets.table.gz (161/195): adding to final database dump
+0050.774 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_elfsight_testimonials_slider_widgets.table.gz (162/195): adding to final database dump
+0050.776 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_post_views.table.gz (163/195): adding to final database dump
+0050.777 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_tg_item_elements.table.gz (164/195): adding to final database dump
+0050.778 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_tg_item_skins.table.gz (165/195): adding to final database dump
+0050.779 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfblockediplog.table.gz (166/195): adding to final database dump
+0050.780 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfblocks7.table.gz (167/195): adding to final database dump
+0050.781 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfconfig.table.gz (168/195): adding to final database dump
+0050.854 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfcrawlers.table.gz (169/195): adding to final database dump
+0050.855 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wffilechanges.table.gz (170/195): adding to final database dump
+0050.857 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wffilemods.table.gz (171/195): adding to final database dump
+0050.930 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfhits.table.gz (172/195): adding to final database dump
+0050.932 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfhoover.table.gz (173/195): adding to final database dump
+0050.934 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfissues.table.gz (174/195): adding to final database dump
+0050.935 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfknownfilelist.table.gz (175/195): adding to final database dump
+0050.960 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflivetraffichuman.table.gz (176/195): adding to final database dump
+0050.961 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflocs.table.gz (177/195): adding to final database dump
+0050.962 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wflogins.table.gz (178/195): adding to final database dump
+0050.966 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfls_2fa_secrets.table.gz (179/195): adding to final database dump
+0050.969 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfls_settings.table.gz (180/195): adding to final database dump
+0050.970 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfnotifications.table.gz (181/195): adding to final database dump
+0050.971 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfpendingissues.table.gz (182/195): adding to final database dump
+0050.974 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfreversecache.table.gz (183/195): adding to final database dump
+0050.975 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfsnipcache.table.gz (184/195): adding to final database dump
+0050.976 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wfstatus.table.gz (185/195): adding to final database dump
+0050.984 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wftrafficrates.table.gz (186/195): adding to final database dump
+0050.985 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_wpmailsmtp_tasks_meta.table.gz (187/195): adding to final database dump
+0050.987 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_indexable.table.gz (188/195): adding to final database dump
+0050.989 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_indexable_hierarchy.table.gz (189/195): adding to final database dump
+0050.990 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_migrations.table.gz (190/195): adding to final database dump
+0050.991 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_primary_term.table.gz (191/195): adding to final database dump
+0050.994 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_seo_links.table.gz (192/195): adding to final database dump
+0050.996 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db-table-wpmd_yoast_seo_meta.table.gz (193/195): adding to final database dump
+0051.010 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db.gz: finished writing out complete database file (1976 KB)
+0051.090 (0) Total database tables backed up: 193 (backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db.gz, size: 2035568, sha1: e6b683649598b7f42dcc19f6886f519be7ad05de, sha256: 32e8d7a36af6d37ff883400a14f2eb17e9f279f2c452ce5e59c389d450d459ff)
+0051.097 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0051.098 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0051.099 (0) backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db.gz: db: This file has not yet been successfully uploaded: will queue
+0051.099 (0) Saving backup history. Total backup size: 65.5 MB
+0051.102 (0) Requesting upload of the files that have not yet been successfully uploaded (3)
+0051.104 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0051.105 (0) No remote despatch: user chose no remote backup service
+0051.106 (0) Recording as successfully uploaded: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-plugins.zip
+0051.107 (0) Recording as successfully uploaded: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-themes.zip
+0051.109 (0) Recording as successfully uploaded: backup_2020-09-14-0918_Saurav_Raj_8d0d34525e41-db.gz
+0051.112 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0051.114 (0) Number of backup sets in history: 3; groups (db): 1
+0051.115 (0) Examining (for databases) backup set with group_id=0, nonce=8d0d34525e41, datestamp=1600075100 (Sep 14 2020 09:18:20)
+0051.116 (0) This backup set is the backup set just made, so will not be deleted.
+0051.116 (0) Examining (for databases) backup set with group_id=0, nonce=8916650ba108, datestamp=1599989039 (Sep 13 2020 09:23:59)
+0051.116 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.117 (0) Examining (for databases) backup set with group_id=0, nonce=1b536d11b8f0, datestamp=1599903448 (Sep 12 2020 09:37:28)
+0051.117 (0) 1599903448: db: this set includes a database (backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-db.gz); db count is now 2
+0051.117 (0) 1599903448: db: over retain limit (2); will delete this database
+0051.117 (0) Delete file: backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-db.gz, service=none
+0051.117 (0) Deleting local copy (backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-db.gz)
+0051.119 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0051.120 (0) Number of backup sets in history: 3; groups (files): 1
+0051.120 (0) Examining (for files) backup set with nonce=8d0d34525e41, datestamp=1600075100 (Sep 14 2020 09:18:20)
+0051.120 (0) This backup set is the backup set just made, so will not be deleted.
+0051.121 (0) This backup set is the backup set just made, so will not be deleted.
+0051.121 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.122 (0) Examining (for files) backup set with nonce=8916650ba108, datestamp=1599989039 (Sep 13 2020 09:23:59)
+0051.122 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.122 (0) Examining (for files) backup set with nonce=1b536d11b8f0, datestamp=1599903448 (Sep 12 2020 09:37:28)
+0051.122 (0) plugins: over retain limit (2); will delete this file entity
+0051.122 (0) themes: over retain limit (2); will delete this file entity
+0051.122 (0) Delete file: backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-plugins.zip, service=none
+0051.123 (0) Deleting local copy (backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-plugins.zip)
+0051.124 (0) Delete file: backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-themes.zip, service=none
+0051.124 (0) Deleting local copy (backup_2020-09-12-0937_Saurav_Raj_1b536d11b8f0-themes.zip)
+0051.126 (0) This backup set is now empty; will remove from history
+0051.127 (0) Deleting log file (log.1b536d11b8f0.txt)
+0051.128 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0051.131 (0) Resume backup (8d0d34525e41, 0): finish run
+0051.133 (0) Decremented the semaphore (fd) by 1
+0051.134 (0) Semaphore (fd) unlocked
+0051.135 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0051.138 (0) No email will/can be sent - the user has not configured an email address.
+0051.139 (0) The backup apparently succeeded and is now complete

@@ -1,0 +1,13 @@
+#da-hm-show-log,
+#da-hm-https,
+#da-hm-import-language,
+#da-hm-import-locale,
+#da-hm-detect-url-mode,
+#da-hm-auto-delete,
+#da-hm-sanitize-url,
+#da-hm-sample-future-permalink,
+.da-hm-default-language,
+.da-hm-default-locale{
+    width: 300px !important;
+    visibility: hidden !important;
+}
